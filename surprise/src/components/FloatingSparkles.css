@@ -1,0 +1,163 @@
+.floating-sparkles {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.sparkle {
+  position: absolute;
+  font-size: 1em;
+  opacity: 0;
+  animation: sparkleFloat infinite ease-in-out;
+  text-shadow: 0 0 6px rgba(255, 215, 0, 0.8);
+  transform-origin: center;
+}
+
+@keyframes sparkleFloat {
+  0% {
+    opacity: 0;
+    transform: translateY(0px) rotate(0deg) scale(0.5);
+  }
+  
+  10% {
+    opacity: 1;
+    transform: translateY(-10px) rotate(45deg) scale(1);
+  }
+  
+  25% {
+    opacity: 0.8;
+    transform: translateY(-25px) rotate(90deg) scale(1.1);
+  }
+  
+  50% {
+    opacity: 1;
+    transform: translateY(-50px) rotate(180deg) scale(0.9);
+  }
+  
+  75% {
+    opacity: 0.6;
+    transform: translateY(-75px) rotate(270deg) scale(1.2);
+  }
+  
+  90% {
+    opacity: 0.3;
+    transform: translateY(-90px) rotate(315deg) scale(0.8);
+  }
+  
+  100% {
+    opacity: 0;
+    transform: translateY(-100px) rotate(360deg) scale(0.5);
+  }
+}
+
+/* Alternative sparkle animations for variety */
+.sparkle:nth-child(3n) {
+  animation-name: sparkleFloatAlt1;
+}
+
+.sparkle:nth-child(3n+1) {
+  animation-name: sparkleFloatAlt2;
+}
+
+@keyframes sparkleFloatAlt1 {
+  0% {
+    opacity: 0;
+    transform: translateX(0px) translateY(0px) rotate(0deg) scale(0.3);
+  }
+  
+  15% {
+    opacity: 0.8;
+    transform: translateX(10px) translateY(-15px) rotate(-45deg) scale(0.9);
+  }
+  
+  30% {
+    opacity: 1;
+    transform: translateX(-5px) translateY(-30px) rotate(90deg) scale(1.3);
+  }
+  
+  60% {
+    opacity: 0.9;
+    transform: translateX(15px) translateY(-60px) rotate(-180deg) scale(0.7);
+  }
+  
+  85% {
+    opacity: 0.4;
+    transform: translateX(-10px) translateY(-85px) rotate(270deg) scale(1.1);
+  }
+  
+  100% {
+    opacity: 0;
+    transform: translateX(0px) translateY(-100px) rotate(-360deg) scale(0.3);
+  }
+}
+
+@keyframes sparkleFloatAlt2 {
+  0% {
+    opacity: 0;
+    transform: translateX(0px) translateY(0px) scale(0.4);
+  }
+  
+  20% {
+    opacity: 1;
+    transform: translateX(-8px) translateY(-20px) scale(1.2);
+  }
+  
+  40% {
+    opacity: 0.7;
+    transform: translateX(12px) translateY(-40px) scale(0.8);
+  }
+  
+  70% {
+    opacity: 0.9;
+    transform: translateX(-15px) translateY(-70px) scale(1.4);
+  }
+  
+  90% {
+    opacity: 0.2;
+    transform: translateX(5px) translateY(-90px) scale(0.6);
+  }
+  
+  100% {
+    opacity: 0;
+    transform: translateX(0px) translateY(-110px) scale(0.4);
+  }
+}
+
+/* Sparkle colors and glow variations */
+.sparkle:nth-child(4n) {
+  color: #ffd700;
+  text-shadow: 0 0 8px rgba(255, 215, 0, 0.9);
+}
+
+.sparkle:nth-child(4n+1) {
+  color: #ffb6c1;
+  text-shadow: 0 0 6px rgba(255, 182, 193, 0.8);
+}
+
+.sparkle:nth-child(4n+2) {
+  color: #87ceeb;
+  text-shadow: 0 0 6px rgba(135, 206, 235, 0.7);
+}
+
+.sparkle:nth-child(4n+3) {
+  color: #dda0dd;
+  text-shadow: 0 0 8px rgba(221, 160, 221, 0.8);
+}
+
+/* Reduce sparkles on mobile for performance */
+@media (max-width: 768px) {
+  .sparkle:nth-child(n+15) {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .sparkle:nth-child(n+10) {
+    display: none;
+  }
+}
