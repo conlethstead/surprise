@@ -3,6 +3,7 @@ import { TimelineData } from '../types/timeline';
 import TimelineEntry from './TimelineEntry';
 import MonthlyRecapCard from './MonthlyRecapCard';
 import AnniversaryCountdown from './AnniversaryCountdown';
+import { getPhotosFromDateFolder } from '../utils/photoUtils';
 import { format, getMonth, getYear, parseISO } from 'date-fns';
 import { Heart, Calendar, ChevronDown } from 'lucide-react';
 import './Timeline.css';
@@ -52,6 +53,16 @@ const Timeline: React.FC<TimelineProps> = ({ data }) => {
     });
   }, [sortedEntries, selectedMonth]);
 
+  // Calculate total photos using the photo utility
+  const totalPhotos = useMemo(() => {
+    return data.entries.reduce((total, entry) => {
+      const photos = entry.photos && entry.photos.length > 0 
+        ? entry.photos 
+        : getPhotosFromDateFolder(entry.date);
+      return total + photos.length;
+    }, 0);
+  }, [data.entries]);
+
   // Get monthly recap for the currently selected month
   const currentMonthRecap = useMemo(() => {
     if (selectedMonth === 'all' || !data.monthlyRecaps) return null;
@@ -93,7 +104,7 @@ const Timeline: React.FC<TimelineProps> = ({ data }) => {
       <AnniversaryCountdown 
         relationshipStart={data.relationshipStart}
         totalMemories={data.entries.length}
-        totalPhotos={data.entries.reduce((total, entry) => total + (entry.photos?.length || 0), 0)}
+        totalPhotos={totalPhotos}
         totalLocations={new Set(data.entries.map(entry => entry.location).filter(Boolean)).size}
       />
 

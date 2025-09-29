@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { TimelineEntry as TimelineEntryType } from '../types/timeline';
 import { format, parseISO } from 'date-fns';
 import { Heart, MapPin, Music, Film, Smile, Calendar, Camera, X, ChevronLeft, ChevronRight, Plane, Star, Activity } from 'lucide-react';
+import { usePhotosFromDate } from '../utils/photoUtils';
 import './TimelineEntry.css';
 
 interface TimelineEntryProps {
@@ -12,6 +13,7 @@ interface TimelineEntryProps {
 const TimelineEntry: React.FC<TimelineEntryProps> = ({ entry, isLeft }) => {
   const [selectedPhoto, setSelectedPhoto] = useState<number | null>(null);
   const formattedDate = format(parseISO(entry.date), 'MMMM do, yyyy');
+  const photos = usePhotosFromDate(entry.date, entry.photos);
   const categoryIcons = {
     date: <Heart className="category-icon" />,
     milestone: <Heart className="category-icon" />,
@@ -23,14 +25,14 @@ const TimelineEntry: React.FC<TimelineEntryProps> = ({ entry, isLeft }) => {
   };
 
   const nextPhoto = () => {
-    if (entry.photos && selectedPhoto !== null) {
-      setSelectedPhoto((selectedPhoto + 1) % entry.photos.length);
+    if (photos && selectedPhoto !== null) {
+      setSelectedPhoto((selectedPhoto + 1) % photos.length);
     }
   };
 
   const prevPhoto = () => {
-    if (entry.photos && selectedPhoto !== null) {
-      setSelectedPhoto(selectedPhoto === 0 ? entry.photos.length - 1 : selectedPhoto - 1);
+    if (photos && selectedPhoto !== null) {
+      setSelectedPhoto(selectedPhoto === 0 ? photos.length - 1 : selectedPhoto - 1);
     }
   };
 
@@ -157,11 +159,11 @@ const TimelineEntry: React.FC<TimelineEntryProps> = ({ entry, isLeft }) => {
           </div>
         )}
 
-        {entry.photos && entry.photos.length > 0 && (
+        {photos && photos.length > 0 && (
           <div className="timeline-section">
             <h4><Camera size={18} /> Photos</h4>
             <div className="photo-gallery">
-              {entry.photos.map((photo, index) => (
+              {photos.map((photo, index) => (
                 <div 
                   key={index} 
                   className="photo-thumbnail"
@@ -201,7 +203,7 @@ const TimelineEntry: React.FC<TimelineEntryProps> = ({ entry, isLeft }) => {
       </div>
 
       {/* Photo Modal */}
-      {selectedPhoto !== null && entry.photos && (
+      {selectedPhoto !== null && photos && (
         <div className="photo-modal" onClick={() => setSelectedPhoto(null)}>
           <div className="photo-modal-content" onClick={(e) => e.stopPropagation()}>
             <button 
@@ -211,7 +213,7 @@ const TimelineEntry: React.FC<TimelineEntryProps> = ({ entry, isLeft }) => {
               <X size={24} />
             </button>
             
-            {entry.photos.length > 1 && (
+            {photos.length > 1 && (
               <>
                 <button 
                   className="photo-nav photo-nav-prev"
@@ -229,13 +231,13 @@ const TimelineEntry: React.FC<TimelineEntryProps> = ({ entry, isLeft }) => {
             )}
             
             <img 
-              src={entry.photos[selectedPhoto]} 
+              src={photos[selectedPhoto]} 
               alt={`Memory ${selectedPhoto + 1}`}
               className="photo-modal-image" 
             />
             
             <div className="photo-counter">
-              {selectedPhoto + 1} of {entry.photos.length}
+              {selectedPhoto + 1} of {photos.length}
             </div>
           </div>
         </div>
