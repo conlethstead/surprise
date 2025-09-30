@@ -7,7 +7,7 @@ set -e
 
 # Configuration
 PROJECT_ID="surprise-473700"
-SERVICE_NAME="surprise-app"
+SERVICE_NAME="our-surprise"
 REGION="us-central1"
 IMAGE_NAME="gcr.io/${PROJECT_ID}/${SERVICE_NAME}"
 
