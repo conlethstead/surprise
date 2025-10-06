@@ -97,6 +97,9 @@ export const timelineData: TimelineData = {
         "Such a cute, comfortable moment together",
         "I loved having you around even during regular day stuff"
       ],
+      photos: [
+        "/pictures/2025-04-03/2025-04-03_photo-1.jpeg"
+      ]
 
     },
     {
@@ -112,7 +115,6 @@ export const timelineData: TimelineData = {
         "Your friends were so welcoming",
         "I was nervous but excited to be part of your friend group"
       ],
-
     },
     {
       id: "6",
@@ -129,7 +131,8 @@ export const timelineData: TimelineData = {
         "I felt so happy and connected to you that night"
       ],
       photos: [
-        "/src/data/pictures/2025-04-07/2025-04-07_skims2.jpeg"
+        "/pictures/2025-04-07/2025-04-07_photo-2.jpeg",
+        "/pictures/2025-04-07/2025-04-07_photo-1.jpeg"
       ]
     },
     {
@@ -146,8 +149,8 @@ export const timelineData: TimelineData = {
         "I could feel us getting closer and closer"
       ],
       photos: [
-        "/src/data/pictures/2025-04-12/2025-04-12_beacon1.jpeg",
-        "/src/data/pictures/2025-04-12/2025-04-12_shak2.JPG"
+        "/pictures/2025-04-12/2025-04-12_photo-1.jpeg",
+        "/pictures/2025-04-12/2025-04-12_photo-2.jpg"
       ]
     },
     {
@@ -165,7 +168,9 @@ export const timelineData: TimelineData = {
         "I felt so connected to you that day"
       ],
       photos: [
-        "/src/data/pictures/2025-04-13/2025-04-13_pure1.jpeg"
+        "/pictures/2025-04-13/2025-04-13_photo-1.jpeg",
+        "/pictures/2025-04-13/2025-04-13_photo-2.jpg",
+        "/pictures/2025-04-13/2025-04-13_photo-3.jpeg"
       ]
     },
     {
@@ -183,8 +188,9 @@ export const timelineData: TimelineData = {
         "Such a magical, romantic evening"
       ],
       photos: [
-        "/src/data/pictures/2025-04-13/2025-04-13_eatori1.jpeg",
-        "/src/data/pictures/2025-04-13/2025-04-13_eatori3.JPG"
+        "/pictures/2025-04-13/2025-04-13_photo-1.jpeg",
+        "/pictures/2025-04-13/2025-04-13_photo-2.jpg",
+        "/pictures/2025-04-13/2025-04-13_photo-3.jpeg"
       ]
     },
     {
@@ -202,7 +208,7 @@ export const timelineData: TimelineData = {
         "Can't wait to play soccer with you!"
       ],
       photos: [
-        "/src/data/pictures/2025-04-15/2025-04-15_soccer2.jpeg"
+        "/pictures/2025-04-15/2025-04-15_photo-1.jpeg"
       ]
     },
     {
@@ -252,8 +258,8 @@ export const timelineData: TimelineData = {
         "Such a fun night celebrating your graduation!"
       ],
       photos: [
-        "/src/data/pictures/2025-05-01/2025-05-01_windfrey1.JPG",
-        "/src/data/pictures/2025-05-01/2025-05-01_windfrey1.jpeg"
+        "/pictures/2025-05-01/2025-05-01_photo-1.jpg",
+        "/pictures/2025-05-01/2025-05-01_photo-2.jpeg"
       ]
     },
     {
@@ -270,8 +276,8 @@ export const timelineData: TimelineData = {
         "One of those perfect party nights with you"
       ],
       photos: [
-        "/src/data/pictures/2025-05-02/2025-05-02_party1.JPG",
-        "/src/data/pictures/2025-05-02/2025-05-02_party2.JPG"
+        "/pictures/2025-05-02/2025-05-02_photo-1.jpg",
+        "/pictures/2025-05-02/2025-05-02_photo-2.jpg"
       ]
     },
     {
@@ -292,8 +298,8 @@ export const timelineData: TimelineData = {
         "First date I put together myself and I nailed it!"
       ],
       photos: [
-        "/src/data/pictures/2025-05-06/2025-05-06_herbday1.JPG",
-        "/src/data/pictures/2025-05-06/2025-05-06_herbday4.jpeg"
+        "/pictures/2025-05-06/2025-05-06_photo-1.jpg",
+        "/pictures/2025-05-06/2025-05-06_photo-2.jpeg"
       ]
     },
     {
@@ -313,8 +319,8 @@ export const timelineData: TimelineData = {
         "Such a cool experience to share with you"
       ],
       photos: [
-        "/src/data/pictures/2025-05-08/2025-05-08_fashion1.JPG",
-        "/src/data/pictures/2025-05-08/2025-05-08_fashion2.JPG"
+        "/pictures/2025-05-08/2025-05-08_photo-1.jpg",
+        "/pictures/2025-05-08/2025-05-08_photo-2.jpg"
       ]
     },
     {
@@ -333,11 +339,11 @@ export const timelineData: TimelineData = {
         "Perfect start to parents weekend"
       ],
       photos: [
-        "/src/data/pictures/2025-05-10/2025-05-10_farmers1.jpeg",
-        "/src/data/pictures/2025-05-10/2025-05-10_farmers2.JPG",
-        "/src/data/pictures/2025-05-10/2025-05-10_farmers3.JPG",
-        "/src/data/pictures/2025-05-10/2025-05-10_chop1.JPG",
-        "/src/data/pictures/2025-05-10/2025-05-10_walk1.jpeg"
+        "/pictures/2025-05-10/2025-05-10_photo-1.jpg",
+        "/pictures/2025-05-10/2025-05-10_photo-2.jpeg",
+        "/pictures/2025-05-10/2025-05-10_photo-3.jpg",
+        "/pictures/2025-05-10/2025-05-10_photo-4.jpg",
+        "/pictures/2025-05-10/2025-05-10_photo-5.jpeg"
       ]
     },
     {
@@ -354,10 +360,10 @@ export const timelineData: TimelineData = {
         "Loved spending more time with your parents"
       ],
       photos: [
-        "/src/data/pictures/2025-05-11/2025-05-11_tennis1.JPG",
-        "/src/data/pictures/2025-05-11/2025-05-11_tennis1.jpeg",
-        "/src/data/pictures/2025-05-11/2025-05-11_tennis2.jpeg",
-        "/src/data/pictures/2025-05-11/2025-05-11_sleepy2.jpeg"
+        "/pictures/2025-05-11/2025-05-11_photo-1.jpeg",
+        "/pictures/2025-05-11/2025-05-11_photo-2.jpg",
+        "/pictures/2025-05-11/2025-05-11_photo-3.jpeg",
+        "/pictures/2025-05-11/2025-05-11_photo-4.jpeg"
       ]
     },
     {
@@ -375,8 +381,8 @@ export const timelineData: TimelineData = {
         "One of those nights where you just glow"
       ],
       photos: [
-        "/src/data/pictures/2025-05-23/2025-05-23_town1.JPG",
-        "/src/data/pictures/2025-05-23/2025-05-23_town2.JPG"
+        "/pictures/2025-05-23/2025-05-23_photo-1.jpg",
+        "/pictures/2025-05-23/2025-05-23_photo-2.jpg"
       ]
     },
     {
@@ -414,6 +420,18 @@ export const timelineData: TimelineData = {
         "The gifts you got me were so thoughtful",
         "You got us tickets to NY - our first baecation!",
         "The 'I LOVE MY GIRLFRIEND' shirt - my family LOVES that!"
+      ],
+      photos: [
+        "/pictures/2025-06-05/2025-06-05_photo-1.jpg",
+        "/pictures/2025-06-05/2025-06-05_photo-2.jpeg",
+        "/pictures/2025-06-05/2025-06-05_photo-3.jpeg",
+        "/pictures/2025-06-05/2025-06-05_photo-4.jpeg",
+        "/pictures/2025-06-05/2025-06-05_photo-6.jpg",
+        "/pictures/2025-06-05/2025-06-05_photo-7.jpg",
+        "/pictures/2025-06-05/2025-06-05_photo-8.jpg",
+        "/pictures/2025-06-05/2025-06-05_photo-10.jpeg",
+        "/pictures/2025-06-05/2025-06-05_photo-11.jpeg",
+        "/pictures/2025-06-05/2025-06-05_photo-12.jpeg"
       ]
     },
     {
@@ -432,6 +450,13 @@ export const timelineData: TimelineData = {
         "You looked insanely pretty that night, I love that dress",
         "Got to show off the 'I LOVE MY GIRLFRIEND' shirt you got me",
         "Crazy end to the night but absolutely unforgettable"
+      ],
+      photos: [
+        "/pictures/2025-06-07/2025-06-07_photo-1.jpeg",
+        "/pictures/2025-06-07/2025-06-07_photo-2.jpg",
+        "/pictures/2025-06-07/2025-06-07_photo-3.jpeg",
+        "/pictures/2025-06-07/2025-06-07_photo-4.jpeg",
+        "/pictures/2025-06-07/2025-06-07_photo-5.jpeg"
       ]
     },
     {
@@ -447,6 +472,10 @@ export const timelineData: TimelineData = {
         "You introduced me to escargot - it was so yummy!",
         "Such a perfect welcome back dinner date",
         "Loved seeing you in that blue dress"
+      ],
+      photos: [
+        "/pictures/2025-06-17/2025-06-17_photo-1.jpeg",
+        "/pictures/2025-06-17/2025-06-17_photo-2.jpeg"
       ]
     },
     {
@@ -462,6 +491,10 @@ export const timelineData: TimelineData = {
         "I love sharing it with you whenever you're over",
         "We took some hilarious pictures during the process",
         "Such a fun domestic day together"
+      ],
+      photos: [
+        "/pictures/2025-06-19/2025-06-19_photo-1.jpeg",
+        "/pictures/2025-06-19/2025-06-19_photo-2.jpeg"
       ]
     },
     {
@@ -549,8 +582,11 @@ export const timelineData: TimelineData = {
         "The pasta was super yummy"
       ],
       photos: [
-        "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&h=400&fit=crop&crop=center&auto=format",
-        "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=400&h=400&fit=crop&crop=center&auto=format"
+        "/pictures/2025-07-15/2025-07-15_photo-1.jpg",
+        "/pictures/2025-07-15/2025-07-15_photo-2.jpg",
+        "/pictures/2025-07-15/2025-07-15_photo-3.jpg",
+        "/pictures/2025-07-15/2025-07-15_photo-4.jpg",
+        "/pictures/2025-07-15/2025-07-15_photo-5.jpeg"
       ]
     },
     {
@@ -568,8 +604,13 @@ export const timelineData: TimelineData = {
         "You looked so good in the top my mom got you!"
       ],
       photos: [
-        "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400&h=400&fit=crop&crop=center&auto=format",
-        "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=400&h=400&fit=crop&crop=center&auto=format"
+        "/pictures/2025-07-24/2025-07-24_photo-1.jpg",
+        "/pictures/2025-07-24/2025-07-24_photo-2.jpg",
+        "/pictures/2025-07-24/2025-07-24_photo-3.jpg",
+        "/pictures/2025-07-24/2025-07-24_photo-4.jpg",
+        "/pictures/2025-07-24/2025-07-24_photo-5.jpeg",
+        "/pictures/2025-07-24/2025-07-24_photo-6.jpeg",
+        "/pictures/2025-07-24/2025-07-24_photo-7.jpg"
       ]
     },
     {
@@ -587,8 +628,7 @@ export const timelineData: TimelineData = {
         "I got to show off some of my new clothes from the thrift store!"
       ],
       photos: [
-        "https://images.unsplash.com/photo-1566737236500-c8ac43014a8e?w=400&h=400&fit=crop&crop=center&auto=format",
-        "https://images.unsplash.com/photo-1541532713592-79a0317b6b77?w=400&h=400&fit=crop&crop=center&auto=format"
+        "/pictures/2025-07-25/2025-07-25_photo-1.jpg"
       ]
     },
     {
@@ -626,8 +666,8 @@ export const timelineData: TimelineData = {
         "They go all out there with the BBQ setup"
       ],
       photos: [
-        "https://images.unsplash.com/photo-1574680096145-d05b474e2155?w=400&h=400&fit=crop&crop=center&auto=format",
-        "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=400&h=400&fit=crop&crop=center&auto=format"
+        "/pictures/2025-08-02/2025-08-02_photo-1.jpg",
+        "/pictures/2025-08-02/2025-08-02_photo-2.jpeg"
       ]
     },
     {
@@ -643,8 +683,8 @@ export const timelineData: TimelineData = {
         "You fit in so well with everyone"
       ],
       photos: [
-        "https://images.unsplash.com/photo-1566893871458-31b1eb46df7a?w=400&h=400&fit=crop&crop=center&auto=format",
-        "https://images.unsplash.com/photo-1508887414855-5ba42a9aa8d3?w=400&h=400&fit=crop&crop=center&auto=format"
+        "/pictures/2025-08-04/2025-08-04_photo-1.jpg",
+        "/pictures/2025-08-04/2025-08-04_photo-2.jpg"
       ]
     },
     {
@@ -666,8 +706,11 @@ export const timelineData: TimelineData = {
         "I can't wait for the next one - I hope I'm invited!"
       ],
       photos: [
-        "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&h=400&fit=crop&crop=center&auto=format",
-        "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=400&h=400&fit=crop&crop=center&auto=format"
+        "/pictures/2025-08-09/2025-08-09_photo-1.jpg",
+        "/pictures/2025-08-09/2025-08-09_photo-2.jpg",
+        "/pictures/2025-08-09/2025-08-09_photo-3.jpg",
+        "/pictures/2025-08-09/2025-08-09_photo-4.jpg",
+        "/pictures/2025-08-09/2025-08-09_photo-5.jpg"
       ]
     },
     {
@@ -706,8 +749,8 @@ export const timelineData: TimelineData = {
         "I lost twice haha"
       ],
       photos: [
-        "https://images.unsplash.com/photo-1566737236500-c8ac43014a8e?w=400&h=400&fit=crop&crop=center&auto=format",
-        "https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?w=400&h=400&fit=crop&crop=center&auto=format"
+        "/pictures/2025-08-22/2025-08-22_photo-1.jpeg",
+        "/pictures/2025-08-22/2025-08-22_photo-2.jpg"
       ]
     },
     {
@@ -727,8 +770,8 @@ export const timelineData: TimelineData = {
         "Of course, got some more cute pictures"
       ],
       photos: [
-        "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=400&h=400&fit=crop&crop=center&auto=format",
-        "https://images.unsplash.com/photo-1593111774240-d529f12cf4bb?w=400&h=400&fit=crop&crop=center&auto=format"
+        "/pictures/2025-08-23/2025-08-23_photo-1.jpg",
+        "/pictures/2025-08-23/2025-08-23_photo-2.jpg"
       ]
     },
     {
@@ -747,8 +790,8 @@ export const timelineData: TimelineData = {
         "Brought the conversation cards for deep talks"
       ],
       photos: [
-        "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&h=400&fit=crop&crop=center&auto=format",
-        "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400&h=400&fit=crop&crop=center&auto=format"
+        "/pictures/2025-08-26/2025-08-26_photo-1.jpeg",
+        "/pictures/2025-08-26/2025-08-26_photo-2.jpg"
       ]
     }
   ],

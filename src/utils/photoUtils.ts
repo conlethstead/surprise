@@ -1,14 +1,16 @@
 import { useState, useEffect } from 'react';
+import photoManifest from '../data/photo-manifest.json';
 
 // Cache for discovered photos to avoid repeated discoveries
 const photoCache: Record<string, string[]> = {};
 
-// Simple utility function - just returns empty array since we do everything in the hook
+// Simple utility function that gets photos from manifest
 export const getPhotosFromDateFolder = (date: string): string[] => {
-  return [];
+  const manifestPhotos = photoManifest[date as keyof typeof photoManifest] || [];
+  return manifestPhotos.map(photo => `/pictures/${date}/${photo}`);
 };
 
-// Main hook that discovers photos by trying sequential image indices
+// Main hook that gets photos from manifest or uses existing photos
 export const usePhotosFromDate = (date: string, existingPhotos?: string[]): string[] => {
   const [photos, setPhotos] = useState<string[]>([]);
 
@@ -25,14 +27,10 @@ export const usePhotosFromDate = (date: string, existingPhotos?: string[]): stri
       return;
     }
 
-    // Discover all photos in the date folder
-    const discoverPhotos = async () => {
-      const discoveredPhotos = await findAllPhotosInFolder(date);
-      photoCache[date] = discoveredPhotos;
-      setPhotos(discoveredPhotos);
-    };
-
-    discoverPhotos();
+    // Get photos from manifest
+    const manifestPhotos = getPhotosFromDateFolder(date);
+    photoCache[date] = manifestPhotos;
+    setPhotos(manifestPhotos);
   }, [date, existingPhotos]);
 
   if (existingPhotos && existingPhotos.length > 0) {
@@ -42,49 +40,19 @@ export const usePhotosFromDate = (date: string, existingPhotos?: string[]): stri
   return photos;
 };
 
-// Much simpler approach: just try numbered photos until we can't find any more
-const findAllPhotosInFolder = async (date: string): Promise<string[]> => {
-  const photos: string[] = [];
-  
-  // Try pattern: 2025-04-08_photo-1.jpg, 2025-04-08_photo-2.jpg, etc.
-  let index = 1;
-  let consecutiveMisses = 0;
-  const maxConsecutiveMisses = 5; // Stop after 5 consecutive misses
-  
-  while (consecutiveMisses < maxConsecutiveMisses && index < 50) {
-    const extensions = ['jpg', 'jpeg', 'JPG'];
-    let found = false;
-    
-    for (const ext of extensions) {
-      const photoPath = `/pictures/${date}/${date}_photo-${index}.${ext}`;
-      if (await imageExists(photoPath)) {
-        photos.push(photoPath);
-        found = true;
-        consecutiveMisses = 0;
-        break;
-      }
-    }
-    
-    if (!found) {
-      consecutiveMisses++;
-    }
-    
-    index++;
-  }
-  
-  return photos;
+// Helper function to validate if a photo path is valid
+export const isValidPhotoPath = (photoPath: string): boolean => {
+  return photoPath.startsWith('/pictures/') || photoPath.startsWith('http');
 };
 
-// Helper function to test if an image exists
-const imageExists = (src: string): Promise<boolean> => {
-  return new Promise((resolve) => {
-    const img = new Image();
-    img.onload = () => resolve(true);
-    img.onerror = () => resolve(false);
-    img.src = src;
-    
-    // Timeout to prevent hanging
-    setTimeout(() => resolve(false), 2000);
-  });
+// Helper function to get all available dates with photos
+export const getAvailablePhotoDates = (): string[] => {
+  return Object.keys(photoManifest).sort();
+};
+
+// Helper function to get photo count for a specific date
+export const getPhotoCountForDate = (date: string): number => {
+  const manifestPhotos = photoManifest[date as keyof typeof photoManifest] || [];
+  return manifestPhotos.length;
 };
 

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { TimelineEntry as TimelineEntryType } from '../types/timeline';
 import { format, parseISO } from 'date-fns';
 import { Heart, MapPin, Music, Film, Smile, Calendar, Camera, X, ChevronLeft, ChevronRight, Plane, Star, Activity } from 'lucide-react';
-import { usePhotosFromDate } from '../utils/photoUtils';
+import { getPhotosFromDateFolder } from '../utils/photoUtils';
 import './TimelineEntry.css';
 
 interface TimelineEntryProps {
@@ -13,7 +13,12 @@ interface TimelineEntryProps {
 const TimelineEntry: React.FC<TimelineEntryProps> = ({ entry, isLeft }) => {
   const [selectedPhoto, setSelectedPhoto] = useState<number | null>(null);
   const formattedDate = format(parseISO(entry.date), 'MMMM do, yyyy');
-  const photos = usePhotosFromDate(entry.date, entry.photos);
+  
+  // Get photos from manifest or use entry-specific photos
+  const manifestPhotos = getPhotosFromDateFolder(entry.date);
+  const photos = entry.photos && entry.photos.length > 0 
+    ? entry.photos 
+    : manifestPhotos;
   const categoryIcons = {
     date: <Heart className="category-icon" />,
     milestone: <Heart className="category-icon" />,
