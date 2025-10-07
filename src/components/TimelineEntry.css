@@ -34,19 +34,14 @@
   position: absolute;
   top: 50%;
   width: 2px;
-  height: 100vh;
+  height: 30vh;
   background: linear-gradient(to bottom, #ff6b6b, #ffd3d3);
   z-index: -1;
 }
 
 .timeline-entry:first-child .timeline-dot::before {
   top: 50%;
-  height: 50vh;
-}
-
-.timeline-entry:last-child .timeline-dot::before {
-  height: 50vh;
-  top: -50vh;
+  height: 30vh;
 }
 
 /* Mobile - connect dots to center line */
@@ -331,11 +326,11 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.95);
+  background: rgba(255, 255, 255, 0.98);
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 1000;
+  z-index: 9999;
   padding: 1rem;
   backdrop-filter: blur(4px);
   -webkit-tap-highlight-color: transparent;
@@ -343,8 +338,8 @@
 
 .photo-modal-content {
   position: relative;
-  max-width: 95vw;
-  max-height: 85vh;
+  max-width: 70vw;
+  max-height: 60vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -355,14 +350,15 @@
   max-height: 100%;
   object-fit: contain;
   border-radius: 0.5rem;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+  border: 2px solid rgba(45, 55, 72, 0.1);
 }
 
 .photo-modal-close {
   position: absolute;
   top: -2.5rem;
   right: 0;
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(45, 55, 72, 0.9);
   border: none;
   border-radius: 50%;
   width: 2.5rem;
@@ -372,13 +368,14 @@
   justify-content: center;
   cursor: pointer;
   transition: background 0.3s ease, transform 0.3s ease;
-  color: #2d3748;
+  color: white;
   -webkit-tap-highlight-color: transparent;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .photo-modal-close:hover,
 .photo-modal-close:active {
-  background: white;
+  background: rgba(45, 55, 72, 1);
   transform: scale(1.1);
 }
 
@@ -386,7 +383,7 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(45, 55, 72, 0.9);
   border: none;
   border-radius: 50%;
   width: 2.5rem;
@@ -396,14 +393,15 @@
   justify-content: center;
   cursor: pointer;
   transition: background 0.3s ease, transform 0.3s ease;
-  color: #2d3748;
-  z-index: 1001;
+  color: white;
+  z-index: 10000;
   -webkit-tap-highlight-color: transparent;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .photo-nav:hover,
 .photo-nav:active {
-  background: white;
+  background: rgba(45, 55, 72, 1);
   transform: translateY(-50%) scale(1.1);
 }
 
@@ -420,13 +418,14 @@
   bottom: -2.5rem;
   left: 50%;
   transform: translateX(-50%);
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(45, 55, 72, 0.9);
   padding: 0.4rem 0.8rem;
   border-radius: 1rem;
-  color: #2d3748;
+  color: white;
   font-size: 0.8rem;
   font-weight: 500;
   white-space: nowrap;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 /* Desktop photo modal enhancements */
@@ -436,8 +435,8 @@
   }
 
   .photo-modal-content {
-    max-width: 90vw;
-    max-height: 90vh;
+    max-width: 60vw;
+    max-height: 70vh;
   }
 
   .photo-modal-image {

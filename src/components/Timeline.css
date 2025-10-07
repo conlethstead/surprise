@@ -355,7 +355,6 @@
   bottom: 0;
   width: 2px;
   background: linear-gradient(to bottom, #ff6b6b, #ffd3d3, #ff6b6b);
-  z-index: 1;
 }
 
 /* Desktop timeline */
