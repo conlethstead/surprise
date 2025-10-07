@@ -1,31 +1,29 @@
-import { TimelineData } from '../types/timeline';
+import { TimelineData } from "../types/timeline";
 
 export const timelineData: TimelineData = {
   relationshipStart: "2025-04-15",
   names: {
     person1: "Conleth",
-    person2: "Katie"
+    person2: "Katie",
   },
   entries: [
     {
       id: "0",
       date: "2025-02-28",
       title: "The Day We Met",
-      description: "\"Hello this is Conleth, he works at Ford\" - and it was over from there! ❤️",
+      description:
+        '"Hello this is Conleth, he works at Ford" - and it was over from there! ❤️',
       category: "milestone",
       location: "The Post Bar",
       memories: [
-        "The introduction that changed everything",
-        "\"Hello this is Conleth, he works at Ford\"",
-        "I knew there was something special about you immediately",
-        "The conversation just flowed so naturally",
-        "Little did we know this was the beginning of our love story",
-        "The Post Bar will always hold a special place in our hearts"
+        "We both love telling the story of how we met, and it went a little something like this:",
+        "I was a little tipsy at the bar and with all of my friends and some mutuals, when I stared up at the DJ booth and saw you.",
+        "I immediately thought and said out loud that I thought you were gorgeous, and was challenged with 'Well, that's my girlfriend's roommate, do you want to talk to her?'",
+        "I knew I could not give this opportunity up, so I stood up and walked over to you.",
+        'Alex introduced us by saying, "Hello this is Conleth, he works at Ford"',
+        "And ever since, you have become my world.",
+        "I am so lucky to have you, and wanted to gift you this to show how much I love you.",
       ],
-      photos: [
-        "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&h=400&fit=crop&crop=center&auto=format",
-        "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=400&h=400&fit=crop&crop=center&auto=format"
-      ]
     },
     {
       id: "1",
@@ -35,32 +33,27 @@ export const timelineData: TimelineData = {
       category: "milestone",
       location: "The Monarch Club",
       memories: [
-        "I was literally shaking with nerves before picking you up",
-        "We were matching! 👗👔",
-        "You held my arm on the walk to the bar and in the elevator", 
-        "Getting to show you my place after dinner was so exciting",
-        "Even though it got super late, I didn't want the night to end",
-        "Driving you home felt like such a gentlemanly moment",
-        "No sleepover? 😢"
+        "This is our most iconic date",
+        "I ubered you to my place, and was literally shaking with nerves before you arrived",
+        "I remember seeing you and remembering how stunning you were because we hadn't seen each other in weeks! And we were matching!",
+        "You held my arm on the walk to the bar and in the elevator, which I loved.",
+        "We talked for hours without missing a beat and I felt so comfortable with you.",
+        "I never wanted the night to end, and even though it got super late, I knew that you were the one for me.",
       ],
-      jokes: [
-        "Why don't scientists trust atoms? Because they make up everything! (Your first dad joke to me)"
-      ],
-
     },
     {
       id: "2",
-      date: "2025-03-26",
+      date: "2025-03-27",
       title: "Homemade Dinner Date",
       description: "I cooked for you for the first time! 👨‍🍳",
       category: "date",
       location: "Conleth's Place",
       memories: [
-        "I was so nervous about cooking for you",
+        "I finally got to show off my cooking which I love doing to this day.",
         "You were so sweet and appreciative of everything",
-        "We talked for hours over dinner",
-        "I knew I wanted to plan more dates with you after this"
-      ]
+        "We talked for hours, and had another late night!",
+        "Fun fact: The next day I even fell asleep at my desk.",
+      ],
     },
     {
       id: "3",
@@ -70,37 +63,32 @@ export const timelineData: TimelineData = {
       category: "date",
       location: "Movie Theater",
       memories: [
-        "Our first time at the movies together",
-        "You introduced me to your popcorn and Milk Duds combo - it's genius!",
-        "Watching you get so into the movie was adorable",
-        "I loved sharing snacks with you"
+        "I recall texting you asking if you had ever seen a Studio Ghibli film thinking no way right?",
+        "And of course, because we share so many interests, you told me that some of them are your comfort films!",
+        "So, I had to book this date even before the second date because I knew our second date would go so well.",
+        "I did not expect the movie to be in Japanese but you enjoyed it just the same.",
+        "You introduced me to your popcorn and Milk Duds combo and it was so good!",
       ],
       movies: [
         {
           title: "Princess Mononoke",
           year: 1997,
-          note: "Our first movie theater experience together - and you showed me the perfect snack combo!"
-        }
+          note: "Our first movie theater experience together",
+        },
       ],
-
     },
     {
       id: "4",
       date: "2025-04-03",
       title: "Work & Chill Day",
-      description: "You hung out while I worked - and we got that iconic interlocked legs photo! 📸",
+      description:
+        "You hung out while I worked - and we got that iconic interlocked legs photo! 📸",
       category: "everyday",
       location: "Conleth's Place",
       memories: [
-        "You were so sweet hanging out while I had to work a bit",
-        "We took that iconic picture eating with our legs interlocked",
-        "Such a cute, comfortable moment together",
-        "I loved having you around even during regular day stuff"
+        "I always loved when you came over during my work we got so much quality time together this way.",
+        "I love this picture of us eating with our legs interlocked, and I did not even know you took it!",
       ],
-      photos: [
-        "/pictures/2025-04-03/2025-04-03_photo-1.jpeg"
-      ]
-
     },
     {
       id: "5",
@@ -110,157 +98,112 @@ export const timelineData: TimelineData = {
       category: "milestone",
       location: "The Post",
       memories: [
-        "First time meeting Gabi, Kellen, and Jordan",
-        "Tigers season opener - what a way to start!",
-        "Your friends were so welcoming",
-        "I was nervous but excited to be part of your friend group"
+        "First time meeting Gabi, Kellen, and Jordan, and it was a wild day.",
+        "I knew you had a great friend group when they all introduced themselves to me, and then Jordan started moonwalking in front of everyone at the bar!",
+        "I brought Colton along and he definitely enjoyed being around us, as he always does.",
       ],
     },
     {
       id: "6",
       date: "2025-04-07",
       title: "Leila Dinner Date",
-      description: "The waiter said we looked so in love! 💕",
+      description: "The waiter LOVED us!",
       category: "date",
       location: "Leila",
       memories: [
-        "We had such a fantastic dinner",
-        "Our waiter was absolutely amazing",
-        "He said he 'left us alone because we looked so in love'",
-        "He even took our picture for us",
-        "I felt so happy and connected to you that night"
+        "We spent a long time at this dinner, I think almost closing it out!",
+        "Our waiter asked us what we wanted to drink and our orders, and left us alone for the rest of the night because we were in our own world and he did not want to disrupt!",
+        "The food was delicious, and you looked stunning as always.",
+        "Then we got this photo! And I know it as one of your favorites."
       ],
-      photos: [
-        "/pictures/2025-04-07/2025-04-07_photo-2.jpeg",
-        "/pictures/2025-04-07/2025-04-07_photo-1.jpeg"
-      ]
     },
     {
       id: "7",
-      date: "2025-04-12",
+      date: "2025-04-01",
       title: "Night Out at Delux Fluxx",
-      description: "Fun night out with friends - the weekend we fell in love! ��",
+      description:
+        "Fun night out with friends!",
       category: "celebration",
       location: "Delux Fluxx",
       memories: [
-        "Such a fun night out with our friends",
-        "We took some amazing pictures together",
-        "This whole weekend felt so special",
-        "I could feel us getting closer and closer"
+        "I was friend group mixing as usual that night, and since I was at the Pistons game, I even asked Chadley, who you had never met, to pick you up and take you to my place!",
+        "Thank you for being so flexible and going with the flow that night, I know it was a lot of new faces but they all commented on how great you are.",
+        "We got to dance and take some fun pictures together!",
       ],
-      photos: [
-        "/pictures/2025-04-12/2025-04-12_photo-1.jpeg",
-        "/pictures/2025-04-12/2025-04-12_photo-2.jpg"
-      ]
     },
     {
       id: "8",
       date: "2025-04-13",
-      title: "First Thrifting Date & Beacon Park",
-      description: "Our first thrift shopping adventure and deep conversations in the park! 🛍️",
+      title: "First Thrifting Date, Beacon Park, and Eatori!",
+      description:
+        "Our first thrift shopping adventure and deep conversations in the park! 🛍️🌳",
       category: "date",
       location: "Thrift Stores & Beacon Park",
       memories: [
-        "Our very first thrifting date together",
-        "Asking each other questions from cards in Beacon Park",
+        "This kicked off the weekend we fell in love!",
+        "We got to walk on a beautiful day to Beacon Park, sit with interlocked legs, and run through some conversation cards together.",
         "We even sent a video to V!",
-        "Such deep, meaningful conversations",
-        "I felt so connected to you that day"
+        "Then we grabbed a snack at the restaurant and rode on the same scooter to the thrift store!",
+        "This began the journey of upgrading my style which I am so grateful for and will never take for granted.",
       ],
-      photos: [
-        "/pictures/2025-04-13/2025-04-13_photo-1.jpeg",
-        "/pictures/2025-04-13/2025-04-13_photo-2.jpg",
-        "/pictures/2025-04-13/2025-04-13_photo-3.jpeg"
-      ]
-    },
-    {
-      id: "9",
-      date: "2025-04-13",
-      title: "Eatori Dinner Date",
-      description: "Lauren served us and strangers bought us champagne! 🥂",
-      category: "date",
-      location: "Eatori",
-      memories: [
-        "Lauren was our server - she was so sweet!",
-        "Random people bought us champagne to start our date",
-        "You looked absolutely stunning in that pink dress",
-        "I couldn't take my eyes off you",
-        "Such a magical, romantic evening"
-      ],
-      photos: [
-        "/pictures/2025-04-13/2025-04-13_photo-1.jpeg",
-        "/pictures/2025-04-13/2025-04-13_photo-2.jpg",
-        "/pictures/2025-04-13/2025-04-13_photo-3.jpeg"
-      ]
     },
     {
       id: "10",
       date: "2025-04-14",
       title: "Your Soccer Game",
-      description: "First time watching you play and meeting your soccer friends! ⚽",
+      description:
+        "First time watching you play and meeting your soccer friends! ⚽",
       category: "milestone",
       location: "Soccer Field",
       memories: [
-        "First time watching you play soccer",
-        "Meeting all of your soccer friends",
-        "Everyone was so nice and welcoming",
-        "I was so proud watching you play",
-        "Can't wait to play soccer with you!"
+        "First time watching you play soccer, and I was so impressed! I really hope to play with you one day.",
+        "Your AKPsi friends were so welcoming and funny, they even complimented my shirt.",
       ],
-      photos: [
-        "/pictures/2025-04-15/2025-04-15_photo-1.jpeg"
-      ]
     },
     {
       id: "11",
       date: "2025-04-15",
       title: "Becoming Official! 💕",
       description: "I asked you to be my girlfriend! 🥰",
-      category: "milestone", 
+      category: "milestone",
       location: "Dinner with V",
       memories: [
-        "We went to dinner with V",
-        "You had been waiting so patiently all week",
-        "I finally asked you to be my girlfriend",
+        "After being SO patient with me all weekend, I finally got to ask you to be my girlfriend.",
+        "We went to dinner with V, and I put some flowers, one for you and one for V, and a card in the trunk.",
+        "I `forgot` the wine in the car so we had to go out to my car together :)",
         "You said yes and we were finally together!",
         "One of the happiest moments of my life",
-        "Everything felt perfect and right"
-      ]
+        "Everything finally felt right",
+      ],
     },
     {
       id: "12",
-      date: "2025-04-22",
+      date: "2025-04-23",
       title: "Tigers Game with Colton",
-      description: "Amazing Tigers game and photos still on my home screen! ⚾📱",
+      description:
+        "Amazing Tigers game and photos still on my home screen! ⚾📱",
       category: "date",
       location: "Tigers Stadium",
       memories: [
-        "Went to the Tigers game with Colton",
-        "We took some absolutely awesome pictures",
-        "Those photos are still on my home screen!",
-        "Such a fun day as an official couple",
-        "I loved showing you off to Colton"
-      ]
+        "Went to the Tigers game with Colton, and took some fun pictures!",
+        "Fun fact: This is my screen saver even now! You know I love your hair in this photo.",
+      ],
     },
     {
       id: "13",
       date: "2025-05-01",
       title: "Your Graduation Celebration at the Whitney",
-      description: "Meeting Nonna and your parents! Such a fun haunted museum and Bronx adventure 🎓",
+      description:
+        "Meeting Nonna and your parents! Such a fun haunted museum and Bronx adventure 🎓",
       category: "milestone",
       location: "Whitney Museum & The Bronx",
       memories: [
         "Finally got to meet Nonna and your parents!",
-        "Nonna forgot her hearing aids but she was still amazing",
+        "Nonna forgot her hearing aids but her energy was still contagious.",
         "The Whitney had such cool and haunted vibes",
-        "Going to the Bronx after was such an adventure",
-        "Loved hanging out with your friends and celebrating you",
-        "Such a fun night celebrating your graduation!"
+        "Going to the Bronx after was interestingggggg but fun!",
+        "Such a fun night celebrating you!",
       ],
-      photos: [
-        "/pictures/2025-05-01/2025-05-01_photo-1.jpg",
-        "/pictures/2025-05-01/2025-05-01_photo-2.jpeg"
-      ]
     },
     {
       id: "14",
@@ -270,81 +213,61 @@ export const timelineData: TimelineData = {
       category: "celebration",
       location: "AKPsi Party",
       memories: [
-        "Such a fun party with Ryan John, John, and Xavier",
-        "We got super crossed and had the best time",
-        "So tired we didn't even take our clothes off going to bed",
-        "One of those perfect party nights with you"
+        "You honestly have the best friends, I always love seeing them and they always glow up when they see me!",
+        "We were both super silly that night and you were incredibly funny.",
+        "We were so tired we didn't even take our clothes off before going to bed",
+        "I would love to repeat this night anytime.",
       ],
-      photos: [
-        "/pictures/2025-05-02/2025-05-02_photo-1.jpg",
-        "/pictures/2025-05-02/2025-05-02_photo-2.jpg"
-      ]
     },
     {
       id: "15",
       date: "2025-05-06",
       title: "Your Birthday! 🎂",
-      description: "First date I planned myself - little gifts, Hiroki-san sushi, and Kampers surprise! 🎁",
+      description:
+        "First date I planned myself - little gifts, Hiroki-san sushi, and Kampers surprise! 🎁",
       category: "milestone",
       location: "Hiroki-san & Kampers",
       memories: [
-        "I greeted you with a bunch of little birthday gifts",
-        "We got all dressed up and looked amazing",
-        "Hiroki-san had the most incredible sushi",
-        "Surprised you with Kampers after - you were so excited!",
+        "I greeted you with a bunch of little birthday gifts in a BIG bag.",
+        "We got all dressed up and tried to match as usual.",
+        "Hiroki-san had the most intimate and celebratory vibe, with great food and drinks!",
+        "Surprised you with Kampers after - I love that you love my surprises.",
         "Amazing food, drinks, and pictures of everything",
         "Two girls on the rooftop thought we were so cute cuddling",
         "They loved taking pictures of us - we're just that adorable",
-        "First date I put together myself and I nailed it!"
+        "I knew I had to kill it for your birthday, and I think I nailed it!",
       ],
-      photos: [
-        "/pictures/2025-05-06/2025-05-06_photo-1.jpg",
-        "/pictures/2025-05-06/2025-05-06_photo-2.jpeg"
-      ]
     },
     {
       id: "16",
       date: "2025-05-08",
       title: "Evan's Fashion Show",
-      description: "My first fashion show ever! You looked like a mermaid goddess 🧜‍♀️",
+      description:
+        "My first fashion show ever! You looked like a mermaid goddess 🧜‍♀️",
       category: "celebration",
       location: "Fashion Show Venue",
       memories: [
-        "My very first fashion show - I was so impressed",
+        "Thanks for taking me to my first talent show, I was so impressed!",
         "Evan really has such incredible talent",
         "I could see how proud you were of her",
-        "Your mermaid outfit was absolutely stunning",
-        "You should have been in the show yourself!",
-        "I loved taking pictures of you all night",
-        "Such a cool experience to share with you"
+        "Your mermaid outfit was absolutely stunning, I loved taking pictures of you in it, as I always do.",
       ],
-      photos: [
-        "/pictures/2025-05-08/2025-05-08_photo-1.jpg",
-        "/pictures/2025-05-08/2025-05-08_photo-2.jpg"
-      ]
     },
     {
       id: "17",
       date: "2025-05-10",
       title: "Parents Weekend Day 1",
-      description: "Farmers market, bowling with your friends, and Harry Potter with genius Mary! 🎳",
+      description:
+        "Farmers market, bowling with your friends, and Harry Potter with genius Mary! 🎳",
       category: "milestone",
       location: "Farmers Market & Bowling Alley",
       memories: [
-        "Went to the farmers market with my parents",
-        "Bowling with your friends was so much fun",
-        "We got the exact same score - meant to be!",
+        "You finally got to meet my parents, and my mom was obsessed!",
+        "Bowling with your friends was so much fun, we even got the same score! Matching!",
         "Harry Potter time with Mary who is an absolute genius",
         "So nice having our families together",
-        "Perfect start to parents weekend"
+        "Perfect start to parents weekend",
       ],
-      photos: [
-        "/pictures/2025-05-10/2025-05-10_photo-1.jpg",
-        "/pictures/2025-05-10/2025-05-10_photo-2.jpeg",
-        "/pictures/2025-05-10/2025-05-10_photo-3.jpg",
-        "/pictures/2025-05-10/2025-05-10_photo-4.jpg",
-        "/pictures/2025-05-10/2025-05-10_photo-5.jpeg"
-      ]
     },
     {
       id: "18",
@@ -354,85 +277,60 @@ export const timelineData: TimelineData = {
       category: "date",
       location: "Meadowbrook",
       memories: [
-        "Tennis with your family was so much fun",
-        "Brunch at Meadowbrook was absolutely delicious",
-        "Such a perfect family day together",
-        "Loved spending more time with your parents"
+        "Tennis with your family was so much fun, poor Mawwy was having a hard time.",
+        "Brunch at Meadowbrook was delicious, I wish I could have eaten more before my game!",
+        "I loved that your family did your high and lows of the day, it shows how close you are as a family and now I try to do it with mine!",
+        "You all went around sharing your favorite memories with each other and I felt so full of love."
       ],
-      photos: [
-        "/pictures/2025-05-11/2025-05-11_photo-1.jpeg",
-        "/pictures/2025-05-11/2025-05-11_photo-2.jpg",
-        "/pictures/2025-05-11/2025-05-11_photo-3.jpeg",
-        "/pictures/2025-05-11/2025-05-11_photo-4.jpeg"
-      ]
     },
     {
       id: "19",
       date: "2025-05-23",
       title: "Townhouse Date Night",
-      description: "You looked incredible and disco night was so fun (even if the food flopped)! 🕺",
+      description:
+        "You looked incredible and disco night was so fun (even if the food flopped)! 🕺",
       category: "date",
       location: "Townhouse",
       memories: [
-        "You looked absolutely amazing that night",
-        "The food totally flopped but we didn't care",
-        "Disco night was such a blast",
-        "Dancing with you was the highlight",
-        "One of those nights where you just glow"
+        "Our 1 month anniversary! So exciting.",
+        "The food totally flopped but the vibe was really cool!",
+        "Disco night was such a blast, the saxophone player was a highlight!",
+        "Our first month was filled with so many fun dates, I could not wait for more!"
       ],
-      photos: [
-        "/pictures/2025-05-23/2025-05-23_photo-1.jpg",
-        "/pictures/2025-05-23/2025-05-23_photo-2.jpg"
-      ]
     },
     {
       id: "20",
       date: "2025-05-26",
       title: "Birthday Celebration with Grandparents",
-      description: "Celebrating me and my brother's birthday - you met my grandparents! 🎂",
+      description:
+        "Celebrating me and my brother's birthday - you met my grandparents! 🎂",
       category: "milestone",
       location: "Family Celebration",
       memories: [
         "Celebrating both me and my brother's birthday",
-        "You finally got to meet my grandparents!",
-        "They absolutely loved you",
-        "Such a special family celebration",
-        "Perfect way to share my birthday with you"
-      ]
+        "You finally got to meet my grandparents, and they adored you!",
+      ],
     },
     {
       id: "21",
       date: "2025-06-05",
       title: "My Birthday Celebration! 🎂",
-      description: "Maybe my favorite birthday ever! The Highlands was Michelin star level amazing! 🌟",
+      description:
+        "Maybe my favorite birthday ever! The Highlands was Michelin star level amazing! 🌟",
       category: "milestone",
       location: "The Highlands",
       memories: [
-        "Even though it wasn't my real birthday, it was my favorite ever",
+        "Even though it wasn't my real birthday, it was super special, I had never felt so loved.",
         "Definitely the best dinner date we've ever been on - you killed it!",
-        "The Highlands was unbelievable, like a Michelin star restaurant",
-        "The 3-course dinner was the perfect choice",
-        "We were definitely served well and got the same-side booth!",
+        "The 3-course dinner with wine pairing was the perfect choice we got TRASHED.",
+        "Good job on the same side booth!",
         "The Beef tartare was SO good!",
         "That video of us going down the elevator was hilarious",
         "I barely remember walking back to my place",
-        "The views were absolutely beautiful",
-        "The gifts you got me were so thoughtful",
-        "You got us tickets to NY - our first baecation!",
-        "The 'I LOVE MY GIRLFRIEND' shirt - my family LOVES that!"
+        "The views were absolutely beautiful, but of course my eyes were always focused on you.",
+        "Your gifts were so thoughtful, from The Incredibles book, to the Superman shirt, to tickets to New York! Thank you so much.",
+        "And last but not least, the 'I LOVE MY GIRLFRIEND' shirt - my family LOVES it!",
       ],
-      photos: [
-        "/pictures/2025-06-05/2025-06-05_photo-1.jpg",
-        "/pictures/2025-06-05/2025-06-05_photo-2.jpeg",
-        "/pictures/2025-06-05/2025-06-05_photo-3.jpeg",
-        "/pictures/2025-06-05/2025-06-05_photo-4.jpeg",
-        "/pictures/2025-06-05/2025-06-05_photo-6.jpg",
-        "/pictures/2025-06-05/2025-06-05_photo-7.jpg",
-        "/pictures/2025-06-05/2025-06-05_photo-8.jpg",
-        "/pictures/2025-06-05/2025-06-05_photo-10.jpeg",
-        "/pictures/2025-06-05/2025-06-05_photo-11.jpeg",
-        "/pictures/2025-06-05/2025-06-05_photo-12.jpeg"
-      ]
     },
     {
       id: "22",
@@ -442,81 +340,45 @@ export const timelineData: TimelineData = {
       category: "celebration",
       location: "Boat & Graduation Party",
       memories: [
-        "Meeting all your cousins - they are so cute!",
-        "I've never been the center of attention like that before",
-        "I was on my best behavior with your extended family",
-        "Helping set up your grad party was so fun",
-        "Dancing with you all night - I loved every second",
-        "You looked insanely pretty that night, I love that dress",
-        "Got to show off the 'I LOVE MY GIRLFRIEND' shirt you got me",
-        "Crazy end to the night but absolutely unforgettable"
+        "Meeting all your cousins was so fun they had so many questions!",
+        "I got to hear lots of good stories about you growing up and all of the travel you have done with your family.",
+        "Helping set up your grad party was so fun, and then we didn't get to see each other until late!",
+        "Once I got to dance with you, everything from the day seemed perfect.",
+        "You looked insanely pretty that night, I love that dress.",
+        "And I got to show off the 'I LOVE MY GIRLFRIEND' shirt you got me.",
+        "Crazy end to the night but unforgettable!",
       ],
-      photos: [
-        "/pictures/2025-06-07/2025-06-07_photo-1.jpeg",
-        "/pictures/2025-06-07/2025-06-07_photo-2.jpg",
-        "/pictures/2025-06-07/2025-06-07_photo-3.jpeg",
-        "/pictures/2025-06-07/2025-06-07_photo-4.jpeg",
-        "/pictures/2025-06-07/2025-06-07_photo-5.jpeg"
-      ]
     },
     {
       id: "23",
       date: "2025-06-17",
       title: "La Supreme Dinner Date",
-      description: "You wore the blue Free People dress and introduced me to escargot! 👗🐌",
+      description:
+        "You wore the blue Free People dress and introduced me to escargot! 👗🐌",
       category: "date",
       location: "La Supreme",
       memories: [
-        "After you got back from vacation I gave you the blue dress from Free People",
-        "You wore it that night to dinner and looked stunning",
-        "You introduced me to escargot - it was so yummy!",
-        "Such a perfect welcome back dinner date",
-        "Loved seeing you in that blue dress"
+        "After you got back from vacation, for our 2 month anniversary I gave you the blue dress from Free People, and I knew you would like it!",
+        "You wore it that night to dinner and looked amazing, I love eating with you always.",
+        "You introduced me to escargot which was fantastic I have to get it every time now.",
       ],
-      photos: [
-        "/pictures/2025-06-17/2025-06-17_photo-1.jpeg",
-        "/pictures/2025-06-17/2025-06-17_photo-2.jpeg"
-      ]
-    },
-    {
-      id: "24",
-      date: "2025-06-19",
-      title: "Putting Up My Shelves",
-      description: "Thank you for helping me create the best room ever! 🔨📸",
-      category: "everyday",
-      location: "Conleth's Place",
-      memories: [
-        "Thank you for helping me put up my shelves!",
-        "We created the best room ever together",
-        "I love sharing it with you whenever you're over",
-        "We took some hilarious pictures during the process",
-        "Such a fun domestic day together"
-      ],
-      photos: [
-        "/pictures/2025-06-19/2025-06-19_photo-1.jpeg",
-        "/pictures/2025-06-19/2025-06-19_photo-2.jpeg"
-      ]
     },
     {
       id: "25",
       date: "2025-07-03",
       endDate: "2025-07-14",
       title: "Back-to-Back Family 4th of July Vacation 🇺🇸",
-      description: "Our epic 12-day family celebration adventure! First with my family, then with yours! 🎆",
+      description:
+        "Our epic 12-day family celebration adventure! First with my family, then with yours! 🎆",
       category: "vacation",
       location: "Michigan & Your Family Celebration",
       duration: "12 days",
       highlights: [
-        "You got along so well with my little cousins - they absolutely loved you!",
-        "Maddie's iconic 'Remember when we first met' moment",
-        "You played mermaids with all the girls and the little boys had crushes on you",
-        "Little Liam asking us to kiss and everyone catching us by your car!",
-        "Fireworks showing up all around us - magic everywhere!",
-        "You took such good care of me when I got sick",
-        "Enzo cured me! He's the best",
-        "Getting so competitive at Pounce - controversial but fun!",
-        "Watching you water ski - you were super good!",
-        "Me actually doing water skiing myself - so cool!"
+        "After a shorter drive to west Michigan, we got to my cousin Lindsey's house, and she knew right away how lucky I am.",
+        
+        "Took us forever to get to Maryland but was all worth it and more.",
+       
+        
       ],
       activities: [
         "Jet skiing on the lake",
@@ -531,227 +393,160 @@ export const timelineData: TimelineData = {
         "Water skiing lessons and shows",
         "Playing Pounce (competitively!)",
         "Watching scary movies together",
-        "Enjoying homemade Italian food"
+        "Enjoying homemade Italian food",
       ],
       memories: [
-        "First weekend with my family - you fit in perfectly",
-        "Jet skiing and kayaking like pros",
+        "First weekend with my extended family!",
+        "You got along so well with my little cousins - they absolutely loved you!",
+        "Maddie's iconic 'Remember when we first met' moment",
+        "CONLETH HAS A GIRLFRIEND CONLETH HAS A GIRLFRIEND! I love that. Yes. I. DO!",
+        "You played mermaids with all the girls and the little boys had crushes on you",
+        "Little Liam asking us to kiss and my little cousins catching us by your car!",
+        "Fireworks showing up all around us on the pontoon felt magical.",
         "Pontoon rides with everyone throwing football",
-        "Pool time was so much fun with everyone",
-        "All my little cousins fell in love with you immediately",
-        "Especially Maddie with her memorable first meeting moment",
-        "You playing mermaids made all the girls so happy",
-        "The little boys definitely had crushes - so cute!",
-        "Liam asking us to kiss and everyone catching us - hilarious!",
         "Fireworks everywhere around us - felt like a movie",
         "By the end of my family weekend, everyone was saying 'wow you better marry her' and 'she's perfect'",
-        "I responded with 'I know!' because they were absolutely right",
-        "Long drive to your family but so worth it",
-        "Being greeted by all your family and the dogs",
-        "I had to work and got super sick but you cared for me",
-        "Enzo being the miracle cure!",
-        "Meeting Pounce and our competitive games",
+        "Then a long drive to your family vacation but so worth it!",
+        "I'm sorry I got sick, and will always thank you for taking such good care of me.",
+        "Then Enzo cured me! He's the best and a great male role model for me.",
+        "Where NONNO go? Where NONNO go? Where NONNO go? I LOVE DEVLIN",
         "Ice cream, donuts, and Toni Toni food - so good",
         "No Enzo's boat this year - next year for sure!",
-        "You water skiing was incredible to watch",
-        "Me trying water skiing was such an adventure",
-        "Scary movie nights were perfect",
-        "The homemade Italian food was amazing",
+        "Getting so competitive at Pounce - controversial but fun!",
+        "Watching you water ski was so fun! I can't wait to see you slalom ski.",
+        "And I got to try myself!",
+        "Scary movie nights were perfect, glad I didn't watch Sinister!",
+        "The homemade Italian food was amazing, I wish I could have helped and learned more!",
         "Getting to meet and spend quality time with your grandparents and cousins",
-        "Spending time with your sisters and you - so much love",
-        "I was surrounded by so much love and truly felt accepted by your family",
-        "Hanging out with Devlin was the cutest - he would always say 'Where NONNO go?' over and over"
+        "Spending time with your sisters and you, I always feel loved.",
       ],
-      photos: [
-        "https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?w=400&h=400&fit=crop&crop=center&auto=format",
-        "https://images.unsplash.com/photo-1499346030926-9a72daac6c63?w=400&h=400&fit=crop&crop=center&auto=format",
-        "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=400&h=400&fit=crop&crop=center&auto=format"
-      ]
     },
     {
       id: "26",
       date: "2025-07-15",
       title: "Our 3 Month Anniversary! 🎉",
-      description: "First time we were able to actually celebrate on the day of our anniversary! 💕",
+      description:
+        "First time we were able to actually celebrate on the day of our anniversary! 💕",
       category: "milestone",
       location: "Ford Garage & Adelina",
       memories: [
-        "First time we were able to actually celebrate on the day of our anniversary!",
+        "Finally we could celebrate each other 3 months after our special day!",
         "Got lunch at Ford Garage together which was super cute because it was the day after you started at Ford!",
-        "That night we went to Adelina and got drinks that matched our shirts - so fun!",
-        "The pasta was super yummy"
+        "That night we went to Adelina and got drinks that matched our shirts which was so cute.",
       ],
-      photos: [
-        "/pictures/2025-07-15/2025-07-15_photo-1.jpg",
-        "/pictures/2025-07-15/2025-07-15_photo-2.jpg",
-        "/pictures/2025-07-15/2025-07-15_photo-3.jpg",
-        "/pictures/2025-07-15/2025-07-15_photo-4.jpg",
-        "/pictures/2025-07-15/2025-07-15_photo-5.jpeg"
-      ]
     },
     {
       id: "27",
       date: "2025-07-24",
       title: "Wright and Company Dinner Date",
-      description: "Such a cute date with nice small dishes and beautiful views! 🍽️",
+      description:
+        "Such a cute date with nice small dishes and beautiful views! 🍽️",
       category: "date",
       location: "Wright and Company",
       memories: [
-        "This date was so cute - we got such nice small dishes",
-        "Got some cute pictures together",
-        "The corner booth looked so nice and we had a cool view of Woodward",
-        "It was fun to walk home that night on Woodward after such a nice dinner - so mysterious",
-        "You looked so good in the top my mom got you!"
+        "Thank you for surprising me with this dinner it was so cute!",
+        "We got a nice card and great pictures together!",
+        "The corner booth looked so nice and we had a cool view of Woodward.",
+        "You looked so good in the top my mom got you!",
       ],
-      photos: [
-        "/pictures/2025-07-24/2025-07-24_photo-1.jpg",
-        "/pictures/2025-07-24/2025-07-24_photo-2.jpg",
-        "/pictures/2025-07-24/2025-07-24_photo-3.jpg",
-        "/pictures/2025-07-24/2025-07-24_photo-4.jpg",
-        "/pictures/2025-07-24/2025-07-24_photo-5.jpeg",
-        "/pictures/2025-07-24/2025-07-24_photo-6.jpeg",
-        "/pictures/2025-07-24/2025-07-24_photo-7.jpg"
-      ]
     },
     {
       id: "28",
       date: "2025-07-25",
       title: "Night Out at The Record Bar",
-      description: "Great night out with Keara and accidentally meeting my work friends! 🍻",
+      description:
+        "Great night out with Keara and accidentally meeting my work friends! 🍻",
       category: "celebration",
       location: "The Record Bar",
       memories: [
-        "We got one of my favorite pictures at this bar!",
-        "Went with Keara and met up with some of my friends from work on accident",
-        "I'm glad you were able to perceive them",
-        "It was such a great vibe there - the inside/outside type of bars are always fun",
-        "I got to show off some of my new clothes from the thrift store!"
+        "We got one of my favorite pictures ever at this bar!",
+        "Went with Keara and met up with some of my friends from work on accident, but so cool that you perceived them!",
+        "It was such a great vibe there - the inside/outside type of bars are always fun, and a great postgame!",
+        "I got to show off some of my new clothes from the thrift store. Thrift clothes counter was probably around 20 at this point.",
       ],
-      photos: [
-        "/pictures/2025-07-25/2025-07-25_photo-1.jpg"
-      ]
     },
     {
       id: "29",
       date: "2025-08-01",
-      title: "Party with AKPsiers! 🎉",
-      description: "Fun pictures and getting drunk as hell - we were bad that night! 😈",
+      title: "2nd Party with AKPsiers! 🎉",
+      description:
+        "Fun pictures and getting drunk as hell - we were bad that night! 😈",
       category: "celebration",
       location: "AKPsi Party",
       memories: [
-        "We took some fun pictures that night",
-        "It ended up almost the same as the first party - with us drunk as hell!",
-        "We were bad that night hehe"
+        "We got to repeat the first party! And we did!",
+        "Can't wait for the next one for Halloween!"
       ],
-      photos: [
-        "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=400&h=400&fit=crop&crop=center&auto=format",
-        "https://images.unsplash.com/photo-1574391884720-bfb7cdf26ba8?w=400&h=400&fit=crop&crop=center&auto=format"
-      ]
     },
     {
       id: "30",
       date: "2025-08-02",
       title: "BBQ & Soccer Hat Trick! ⚽",
-      description: "BBQ with dad's friends and then my amazing hat trick game! 🥅",
-      category: "milestone",
+      description:
+        "BBQ with dad's friends and then my amazing hat trick game! 🥅",
+      category: "date",
       location: "BBQ & Soccer Field",
-      highlights: [
-        "I got a hat trick and you and V were so cute jumping and saying my name!",
-        "I love that video so much",
-        "You joined me for both events - I always love showing you off"
-      ],
       memories: [
-        "I was so happy that you joined me that day for those events",
-        "Although you had a little headache it was still cool to see how well an event could be set up",
-        "They go all out there with the BBQ setup"
+        "I always love showing you off to anyone who will let me so thank you for joining me!",
+        "They go all out there with the BBQ setup",
+        "One of my favorite parts of summer was having you and your family at my soccer games. Always the biggest fanbase!",
       ],
-      photos: [
-        "/pictures/2025-08-02/2025-08-02_photo-1.jpg",
-        "/pictures/2025-08-02/2025-08-02_photo-2.jpeg"
-      ]
     },
     {
       id: "31",
       date: "2025-08-04",
       title: "Baseball Game with College Friends ⚾",
-      description: "Great pictures and a fun night with the college crew! 📸",
+      description: "Baseball game and college friends! 📸",
       category: "date",
       location: "Baseball Stadium",
       memories: [
-        "Got some great pictures",
-        "Had such a fun night with my college friends",
-        "You fit in so well with everyone"
+        "Got some great pictures and had a fun night with my college friends!",
+        "Had such a fun night with my college friends.",
+        "You fit in so well with everyone, they all said such nice things about you.",
       ],
-      photos: [
-        "/pictures/2025-08-04/2025-08-04_photo-1.jpg",
-        "/pictures/2025-08-04/2025-08-04_photo-2.jpg"
-      ]
     },
     {
       id: "32",
       date: "2025-08-09",
       title: "Spirited Away Taste Film 🍜",
-      description: "You and your sisters absolutely killed it - this night blew me away! ✨",
+      description:
+        "You and your sisters absolutely killed it - this night blew me away! ✨",
       category: "special",
       location: "Taste Film Event",
-      highlights: [
-        "You and your sisters absolutely killed it with each course!",
-        "My favorite was the Feast of the Greedy - so unique and delicious",
-        "All of the decorations were so cute",
-        "I loved showing my family pictures from this to show how special you are"
-      ],
       memories: [
-        "This night blew me away",
-        "Each course was so unique and delicious",
-        "I can't wait for the next one - I hope I'm invited!"
+        "You and your sisters absolutely killed it with each course!",
+        "My favorite was the Feast of the Greedy SO YUMMY!",
+        "All of the decorations were so cute I could tell how much effort you put into it and I can't wait for Home Alone!",
+        "I loved showing my family pictures from this to show how creative, thoughtful, and original you are.",
       ],
-      photos: [
-        "/pictures/2025-08-09/2025-08-09_photo-1.jpg",
-        "/pictures/2025-08-09/2025-08-09_photo-2.jpg",
-        "/pictures/2025-08-09/2025-08-09_photo-3.jpg",
-        "/pictures/2025-08-09/2025-08-09_photo-4.jpg",
-        "/pictures/2025-08-09/2025-08-09_photo-5.jpg"
-      ]
     },
     {
       id: "33",
       date: "2025-08-21",
       title: "First Time Golfing! ⛳",
-      description: "Teaching you golf with Colton and Kat - you did so well! 🏌️‍♀️",
+      description:
+        "Teaching you golf with Colton and Kat - you did so well! 🏌️‍♀️",
       category: "date",
       location: "Golf Course",
       memories: [
-        "First time golfing with Colton and Kat!",
-        "It was really fun trying to teach you how to golf",
-        "Even though I'm not a great teacher, you did so well on the low irons!"
+        "Double date with Colton and Kat - first time golfing!",
+        "It was really fun trying to teach you how to golf, I am sorry if I was not the best teacher!",
       ],
-      photos: [
-        "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=400&h=400&fit=crop&crop=center&auto=format",
-        "https://images.unsplash.com/photo-1587174486073-ae5e5cec4972?w=400&h=400&fit=crop&crop=center&auto=format"
-      ]
     },
     {
       id: "34",
       date: "2025-08-22",
       title: "Bastille Bar - Mixing Friend Groups! 🍻",
-      description: "Keara's rooftop meetup with your friends and playing Fingers! 🏙️",
+      description:
+        "Keara's rooftop meetup with your friends and playing Fingers! 🏙️",
       category: "celebration",
       location: "Keara's Rooftop & Bastille Bar",
-      highlights: [
+      memories: [
         "Meeting up with your friends on Keara's rooftop was super fun",
         "The view from up there was really nice!",
-        "You got out first in Fingers like every game!"
+        "You got out first in Fingers like every game!",
+        "I lost twice lol but another great night out with you and your friends!",
       ],
-      memories: [
-        "We got to take pictures and dress up",
-        "Had great conversation with your friends",
-        "Then we showed your friends Fingers",
-        "I lost twice haha"
-      ],
-      photos: [
-        "/pictures/2025-08-22/2025-08-22_photo-1.jpeg",
-        "/pictures/2025-08-22/2025-08-22_photo-2.jpg"
-      ]
     },
     {
       id: "35",
@@ -760,62 +555,51 @@ export const timelineData: TimelineData = {
       description: "Our most fun golfing event yet - you even got a par! 🏌️‍♀️",
       category: "date",
       location: "Belle Isle Golf Course",
-      highlights: [
-        "This has been our most fun golfing event yet!",
-        "You even got a par!",
-        "You hit so many good shots!"
-      ],
       memories: [
         "It was the perfect outing for us",
-        "Of course, got some more cute pictures"
+        "Of course, got some more cute pictures",
+        "You got a par and beat Isaac and Colton! I was so proud of you, I hope we can play more!",
       ],
-      photos: [
-        "/pictures/2025-08-23/2025-08-23_photo-1.jpg",
-        "/pictures/2025-08-23/2025-08-23_photo-2.jpg"
-      ]
     },
     {
       id: "36",
       date: "2025-08-26",
       title: "La Lanterna Date Night 🕯️",
-      description: "Dressed up, conversation cards, and our favorite picture! 📸",
+      description:
+        "Dressed up, conversation cards, and our favorite picture! 📸",
       category: "date",
       location: "La Lanterna",
-      highlights: [
-        "We took our favorite picture!",
-        "I loved this date so much"
-      ],
       memories: [
-        "We got to get dressed up",
-        "Brought the conversation cards for deep talks"
+        "I love all dates with you and think we should do little ones like this more often! If only I had infinite money :)",
+        "Brought the conversation cards for deep talks",
       ],
-      photos: [
-        "/pictures/2025-08-26/2025-08-26_photo-1.jpeg",
-        "/pictures/2025-08-26/2025-08-26_photo-2.jpg"
-      ]
-    }
+    },
   ],
   monthlyRecaps: [
     {
       monthYear: "2025-2",
-      summary: "March was when we really started building something special! After our magical first date, I was so excited to plan more time together. From cooking dinner for you (and being so nervous!) to our first movie theater experience with Princess Mononoke - every moment felt like we were creating our own little world together.",
+      summary:
+        "March was when we really started building something special! After our magical first date, I was so excited to plan more time together. From cooking dinner for you (and being so nervous!) to our first movie theater experience with Princess Mononoke - every moment felt like we were creating our own little world together.",
       favoriteDate: {
         entryId: "1",
-        reason: "Our first date will always be my favorite! I was literally shaking with nerves beforehand, but getting to Uber you back to my place and show off where I live was so special. Even though it got super late, I didn't want the night to end - driving you home at the end felt like such a gentlemanly moment. It was the perfect start to everything! 🚗💕"
+        reason:
+          "Our first date will always be my favorite! I was literally shaking with nerves beforehand, but getting to Uber you back to my place and show off where I live was so special. Even though it got super late, I didn't want the night to end - driving you home at the end felt like such a gentlemanly moment. It was the perfect start to everything! 🚗💕",
       },
       monthHighlights: [
         "Successfully cooking dinner for you without burning anything! 👨‍🍳",
         "Learning about your perfect movie snack combination",
         "Seeing how excited you got during Princess Mononoke",
-        "Realizing I wanted to keep planning more and more dates with you"
-      ]
+        "Realizing I wanted to keep planning more and more dates with you",
+      ],
     },
     {
       monthYear: "2025-3",
-      summary: "April was THE month! This is when we truly fell in love and became official. From iconic photos with interlocked legs to meeting each other's friends, from deep conversations in Beacon Park to that magical weekend where everything clicked. The waiter at Leila saying we looked so in love, strangers buying us champagne at Eatori, and you looking absolutely stunning in that pink dress. But the best moment was April 15th when I finally asked you to be my girlfriend after you waited so patiently. We were finally together! 💕",
+      summary:
+        "April was THE month! This is when we truly fell in love and became official. From iconic photos with interlocked legs to meeting each other's friends, from deep conversations in Beacon Park to that magical weekend where everything clicked. The waiter at Leila saying we looked so in love, strangers buying us champagne at Eatori, and you looking absolutely stunning in that pink dress. But the best moment was April 15th when I finally asked you to be my girlfriend after you waited so patiently. We were finally together! 💕",
       favoriteDate: {
         entryId: "11",
-        reason: "April 15th will always be my favorite - the day I asked you to be my girlfriend! You had been so patient all week, and when I finally asked, everything felt perfect. It was the moment we officially became 'us' and I've never been happier. Plus, having V there made it even more special! 🥰"
+        reason:
+          "April 15th will always be my favorite - the day I asked you to be my girlfriend! You had been so patient all week, and when I finally asked, everything felt perfect. It was the moment we officially became 'us' and I've never been happier. Plus, having V there made it even more special! 🥰",
       },
       monthHighlights: [
         "That iconic interlocked legs photo that perfectly captures our comfort together",
@@ -826,15 +610,17 @@ export const timelineData: TimelineData = {
         "Deep conversations with question cards in Beacon Park",
         "Watching you play soccer and meeting your soccer friends",
         "THE moment on April 15th when we became official! 💕",
-        "Tigers game photos that are still on my home screen"
-      ]
+        "Tigers game photos that are still on my home screen",
+      ],
     },
     {
       monthYear: "2025-4",
-      summary: "May was all about celebrating milestones and meeting family! From your graduation celebration where I finally met Nonna and your parents, to your birthday where I planned my very first solo date (and totally nailed it with Hiroki-san and Kampers!). Parents weekend was so special having our families together, and seeing you in that mermaid outfit at Evan's fashion show was breathtaking. Every moment felt like we were building something even more beautiful together! 🎓🎂",
+      summary:
+        "May was all about celebrating milestones and meeting family! From your graduation celebration where I finally met Nonna and your parents, to your birthday where I planned my very first solo date (and totally nailed it with Hiroki-san and Kampers!). Parents weekend was so special having our families together, and seeing you in that mermaid outfit at Evan's fashion show was breathtaking. Every moment felt like we were building something even more beautiful together! 🎓🎂",
       favoriteDate: {
         entryId: "15",
-        reason: "Your birthday will always be special to me - it was the first date I planned completely by myself and I was so nervous but excited to surprise you! From the little gifts to Hiroki-san to the surprise Kampers, seeing your face light up made all the planning worth it. Plus those girls on the rooftop thinking we were the cutest couple ever just confirmed what I already knew! 🎁✨"
+        reason:
+          "Your birthday will always be special to me - it was the first date I planned completely by myself and I was so nervous but excited to surprise you! From the little gifts to Hiroki-san to the surprise Kampers, seeing your face light up made all the planning worth it. Plus those girls on the rooftop thinking we were the cutest couple ever just confirmed what I already knew! 🎁✨",
       },
       monthHighlights: [
         "Finally meeting Nonna and your parents at your graduation celebration",
@@ -843,15 +629,17 @@ export const timelineData: TimelineData = {
         "Parents weekend bringing our families together perfectly",
         "Getting the same bowling score - we're just meant to be!",
         "Dancing at Townhouse even when the food was terrible",
-        "You meeting my grandparents and them falling in love with you instantly"
-      ]
+        "You meeting my grandparents and them falling in love with you instantly",
+      ],
     },
     {
       monthYear: "2025-5",
-      summary: "June was pure magic and celebration! My birthday at The Highlands was maybe my favorite ever - you absolutely killed it with the planning and made it feel like Michelin star dining. Meeting your extended family on the boat tour and dancing all night at your graduation party was unforgettable. Plus planning our first baecation to NY and getting to show off that 'I LOVE MY GIRLFRIEND' shirt everywhere! Every moment felt like we were leveling up together. 🌟🗽",
+      summary:
+        "June was pure magic and celebration! My birthday at The Highlands was maybe my favorite ever - you absolutely killed it with the planning and made it feel like Michelin star dining. Meeting your extended family on the boat tour and dancing all night at your graduation party was unforgettable. Plus planning our first baecation to NY and getting to show off that 'I LOVE MY GIRLFRIEND' shirt everywhere! Every moment felt like we were leveling up together. 🌟🗽",
       favoriteDate: {
         entryId: "21",
-        reason: "My birthday celebration at The Highlands will always be special - even though it wasn't my real birthday, it might have been my favorite ever! The way you planned everything was incredible, from the 3-course dinner to the same-side booth to those thoughtful gifts. That beef tartare was amazing and getting NY tickets for our first baecation? Pure perfection! Plus that hilarious elevator video we took. 🎂✨"
+        reason:
+          "My birthday celebration at The Highlands will always be special - even though it wasn't my real birthday, it might have been my favorite ever! The way you planned everything was incredible, from the 3-course dinner to the same-side booth to those thoughtful gifts. That beef tartare was amazing and getting NY tickets for our first baecation? Pure perfection! Plus that hilarious elevator video we took. 🎂✨",
       },
       monthHighlights: [
         "The Highlands dinner that felt like Michelin star level amazing",
@@ -862,8 +650,8 @@ export const timelineData: TimelineData = {
         "Dancing all night at your graduation party in that stunning dress",
         "You wearing the blue Free People dress I got you to La Supreme",
         "Trying escargot for the first time - so yummy!",
-        "Building my room together and taking hilarious shelf-hanging pictures"
-      ]
-    }
-  ]
+        "Building my room together and taking hilarious shelf-hanging pictures",
+      ],
+    },
+  ],
 };

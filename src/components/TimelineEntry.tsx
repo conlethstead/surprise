@@ -16,9 +16,7 @@ const TimelineEntry: React.FC<TimelineEntryProps> = ({ entry, isLeft }) => {
   
   // Get photos from manifest or use entry-specific photos
   const manifestPhotos = getPhotosFromDateFolder(entry.date);
-  const photos = entry.photos && entry.photos.length > 0 
-    ? entry.photos 
-    : manifestPhotos;
+  const photos = manifestPhotos;
   const categoryIcons = {
     date: <Heart className="category-icon" />,
     milestone: <Heart className="category-icon" />,

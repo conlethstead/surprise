@@ -13,9 +13,6 @@ interface TimelineProps {
 }
 
 const Timeline: React.FC<TimelineProps> = ({ data }) => {
-  const currentDate = new Date();
-  const currentMonthYear = `${getYear(currentDate)}-${getMonth(currentDate)}`;
-  
   const [selectedMonth, setSelectedMonth] = useState<string>('all');
 
   const sortedEntries = [...data.entries].sort((a, b) => 
