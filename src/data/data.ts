@@ -574,6 +574,58 @@ export const timelineData: TimelineData = {
         "Brought the conversation cards for deep talks",
       ],
     },
+    {
+      id: "37",
+      date: "2025-09-05",
+      title: "Dinner at Selden Standard",
+      description: "Lovely food, fitted up, and curly hair!",
+      category: "date",
+      location: "Selden Standard",
+      memories: [
+        "I finally got to wear my grey suit and you looked beautiful in that blue dress! We always look great together.",
+        "Watching the food get grilled live at the kitchen counter, mouths watering",
+        "We got to share another delicious meal!"
+      ]
+    },
+    {
+      id: "38",
+      date: "2025-09-11",
+      title: "Sneaking lunch at work!",
+      description: "Steak, Eggs, and Salad! YUM",
+      category: "date",
+      location: "Great Commoner",
+      memories: [
+        "I love sneaking time with you, and this one was extra special.",
+        "Thanks for meeting me and making good choices on dinner!",
+      ]
+    },
+    {
+      id: "39",
+      date: "2025-09-12",
+      title: "Michigan game in Ann Arbor!",
+      description: "Quality time with family",
+      category: "date",
+      location: "The Big House and Northville",
+      memories: [
+        "We got to eat super yummy chicken dinner with my parents and they took this cute picture of us!",
+        "Tailgating, watching Wicked at halftime, and getting seranated was so fun! Thanks for being my +1 :)",
+        "We were tired after that game what can I say ;)",
+        "It was so special to me that you got your family to come to my last game, I'm really glad we got a picture of this."
+      ]
+    },
+    {
+      id: "40",
+      date: "2025-09-15",
+      title: "Anniversary Dinner at Grey Ghost",
+      description: "Fun plates and a great anniversary!",
+      category: "date",
+      location: "Grey Ghost",
+      memories: [
+        "They wrote us such a cute card!",
+        "We got to see James, who was at my apartment after our first date!",
+        "So cute to hear that he got engaged, it is a great omen for us."
+      ]
+    }
   ],
   monthlyRecaps: [
     {
