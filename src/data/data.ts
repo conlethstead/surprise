@@ -625,6 +625,43 @@ export const timelineData: TimelineData = {
         "We got to see James, who was at my apartment after our first date!",
         "So cute to hear that he got engaged, it is a great omen for us."
       ]
+    },
+    {
+      id: "41",
+      date: "2025-09-27",
+      title: "Zach Bryan Concert!",
+      description: "Great music, awesome outfits and so fun!",
+      category: "date",
+      location: "The Big House",
+      memories: [
+        ""
+      ]
+    },
+    {
+      id: "41",
+      date: "2025-10-04",
+      title: "Northville Football and Red Wings",
+      description: "Back & Forth Weekend in AA and Northville",
+      category: "date",
+      location: "Northville High School",
+      memories: [
+        "This weekend was jam packed and awesome!",
+        "It was so cool to see V with all of her friends cheering, and how much people love the Mustangs!",
+        "Shake Shack into the hockey game on the glass was a blast! We got such a good game and I loved how much you enjoyed the game."
+      ]
+    },
+    {
+      id: "42",
+      date: "2025-10-07",
+      title: "CAVA and AKPSi Soccer Game",
+      description: "New favorite spot and trash talk!",
+      category: "date",
+      location: "CAVA",
+      memories: [
+        "It was fun watching your face light up at all the options in CAVA, we will totally go again!",
+        "Being welcomed in your friend group and hearing all the funny trash talk was hilarious.",
+        "Finishing Across the Spiderverse after! Thanks for watching my favorite movie with me."
+      ]
     }
   ],
   monthlyRecaps: [
