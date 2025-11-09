@@ -663,6 +663,22 @@ export const timelineData: TimelineData = {
         "Finishing Across the Spiderverse after! Thanks for watching my favorite movie with me."
       ]
     }
+    ,
+    {
+      id: "43",
+      date: "2025-10-10",
+      title: "6 Month Anniversary! 🎉",
+      description:
+        "Celebrating our 6 month anniversary — Standby for dinner (wings!) and then trying to recreate our first date at The Monarch Club.",
+      category: "milestone",
+      location: "Standby & The Monarch Club",
+      memories: [
+        "Such a huge milestone for us — 6 months together!",
+        "We went to Standby for dinner and the wings were so good.",
+        "After dinner we headed to The Monarch Club to try to recreate our first date — such a sweet, nostalgic night.",
+        "I loved every minute of celebrating with you and making new memories that echo the first ones. ❤️"
+      ]
+    }
   ],
   monthlyRecaps: [
     {
