@@ -389,7 +389,7 @@ export const timelineData: TimelineData = {
         "Playing mermaids with the little girls",
         "Boating (even without Enzo's boat this year)",
         "Getting ice cream and donuts",
-        "Eating amazing food at Toni Toni",
+        "Eating amazing food at Honi Honi",
         "Water skiing lessons and shows",
         "Playing Pounce (competitively!)",
         "Watching scary movies together",
@@ -410,7 +410,7 @@ export const timelineData: TimelineData = {
         "I'm sorry I got sick, and will always thank you for taking such good care of me.",
         "Then Enzo cured me! He's the best and a great male role model for me.",
         "Where NONNO go? Where NONNO go? Where NONNO go? I LOVE DEVLIN",
-        "Ice cream, donuts, and Toni Toni food - so good",
+        "Ice cream, donuts, and Honi Honi food - so good",
         "No Enzo's boat this year - next year for sure!",
         "Getting so competitive at Pounce - controversial but fun!",
         "Watching you water ski was so fun! I can't wait to see you slalom ski.",
@@ -740,6 +740,73 @@ export const timelineData: TimelineData = {
         "You wearing the blue Free People dress I got you to La Supreme",
         "Trying escargot for the first time - so yummy!",
         "Building my room together and taking hilarious shelf-hanging pictures",
+      ],
+    },
+    {
+      monthYear: "2025-6",
+      summary:
+        "July was our epic adventure month! The back-to-back family 4th of July vacation was absolutely perfect - 12 days of pure bliss with both our families. From jet skiing and pontoon rides with my cousins to water skiing lessons with your family, every moment was magical. My family fell in love with you instantly, and seeing you play mermaids with the little girls melted my heart. Then celebrating our 3-month anniversary at Ford Garage (perfect timing with your new job!) and Wright and Company. July proved we can handle anything together! 🇺🇸🌊",
+      favoriteDate: {
+        entryId: "25",
+        reason:
+          "Our 12-day family vacation will always be unforgettable! Seeing you bond with my little cousins, hearing 'CONLETH HAS A GIRLFRIEND!' from everyone, and then taking care of me when I got sick at your family vacation. The fireworks around the pontoon felt magical, and by the end everyone was saying 'you better marry her!' It was the perfect way to show both our families how amazing we are together. 🎆💕",
+      },
+      monthHighlights: [
+        "12 days of back-to-back family vacations - pure magic!",
+        "You playing mermaids with my little cousins and them falling in love with you",
+        "Maddie's iconic 'Remember when we first met' moment",
+        "Fireworks everywhere around the pontoon like a movie scene",
+        "My family saying 'wow you better marry her' and 'she's perfect'",
+        "Taking such good care of me when I got sick",
+        "Meeting and bonding with your grandparents and cousins",
+        "Watching you water ski - can't wait to see you slalom!",
+        "Competitive Pounce games and scary movie nights",
+        "Amazing homemade Italian food and Honi Honi dinners",
+        "Finally celebrating our 3-month anniversary on the actual day!",
+        "Ford Garage lunch the day after you started at Ford - so cute!",
+      ],
+    },
+    {
+      monthYear: "2025-7",
+      summary:
+        "August was all about fun adventures and showing you off! From AKPsi parties where we got 'bad that night' to teaching you golf (twice!) and watching you get a par on Belle Isle. The Spirited Away Taste Film event absolutely blew me away - you and your sisters killed it with every course! Meeting my college friends at the baseball game and seeing how perfectly you fit in, plus that romantic La Lanterna date with conversation cards. August showed me how creative, thoughtful, and amazing you are! ✨⛳",
+      favoriteDate: {
+        entryId: "32",
+        reason:
+          "The Spirited Away Taste Film event was absolutely incredible! Watching you and your sisters create each course with such creativity and attention to detail blew me away. The Feast of the Greedy was my favorite, and all the decorations were so cute. I loved showing my family the pictures to show how creative, thoughtful, and original you are. It made me even more excited for Home Alone! 🍜✨",
+      },
+      monthHighlights: [
+        "AKPsi party where we got 'bad that night' - so much fun!",
+        "Teaching you golf and seeing you get a par on Belle Isle!",
+        "You beating Isaac and Colton at golf - I was so proud!",
+        "The incredible Spirited Away Taste Film event - you absolutely killed it!",
+        "Meeting my college friends who all said such nice things about you",
+        "Showing you off to dad's friends at the BBQ",
+        "My hat trick soccer game with you cheering me on",
+        "Mixing friend groups at Bastille Bar and Keara's rooftop",
+        "That perfect view from the rooftop",
+        "La Lanterna date night with conversation cards and our favorite picture",
+      ],
+    },
+    {
+      monthYear: "2025-8",
+      summary:
+        "September was all about milestones and celebrations! From looking absolutely stunning at Selden Standard in your blue dress to sneaking lunch dates at Great Commoner, every moment was special. The Michigan game in Ann Arbor was incredible - having both our families there for my last game made it so meaningful. Our anniversary dinner at Grey Ghost was perfect, and seeing James who was at my apartment after our first date! Then ending the month with the Zach Bryan concert - great music, awesome outfits, and so much fun together! 🏈🎵",
+      favoriteDate: {
+        entryId: "39",
+        reason:
+          "The Michigan game will always be special - it was my last game and having both our families there meant everything to me. From the yummy chicken dinner with my parents to tailgating and watching Wicked at halftime, it was perfect. Getting that picture with both our families there was so meaningful, and I loved that you brought your family to support me. Plus we were definitely tired after that game! 🏈💙",
+      },
+      monthHighlights: [
+        "You looking absolutely stunning in that blue dress at Selden Standard",
+        "Sneaking lunch dates at Great Commoner - I love our secret time together",
+        "Michigan game with both our families there for my last game",
+        "That meaningful family photo at the Big House",
+        "Tailgating and watching Wicked at halftime together",
+        "Anniversary dinner at Grey Ghost with the cute card they wrote us",
+        "Seeing James who was at my apartment after our first date!",
+        "Hearing about his engagement - great omen for us!",
+        "Zach Bryan concert with great music and awesome outfits",
       ],
     },
   ],
