@@ -919,9 +919,9 @@ export const timelineData: TimelineData = {
       summary:
         "October was a cozy, celebratory month full of milestones and high-energy nights. We marked six months together with Standby wings and a throwback dinner at The Monarch Club, cheered at the Red Wings game, enjoyed fall donuts and photo ops in Northville, and had two unforgettable Halloween parties with friends. It balanced quiet moments with big nights out.",
       favoriteDate: {
-        entryId: "42",
+        entryId: "47",
         reason:
-          "Our 6-month celebration (Standby + The Monarch Club) felt nostalgic and perfect — a thoughtful mix of the small moments and a night that truly celebrated us.",
+          "Halloween Part 2 at the big house party was my favorite — mixing friend groups, dressing up in our SUPER costumes, and the incredible energy on the walk there made it unforgettable. You did such a great job bringing everyone together.",
       },
       monthHighlights: [
         "Six-month celebration: Standby wings and recreating our first date at The Monarch Club",
