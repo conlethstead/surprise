@@ -724,7 +724,7 @@ export const timelineData: TimelineData = {
     },
     {
       id: "46",
-      date: "2025-11-25",
+      date: "2025-10-25",
       title: "Northville Fall Day",
       description: "Red Dot + Cider Mill donuts and a cozy fall photo day! 🍂",
       category: "date",
@@ -917,17 +917,17 @@ export const timelineData: TimelineData = {
     {
       monthYear: "2025-10",
       summary:
-        "November (October in our timeline) was a lovely milestone month — we celebrated six months together with Standby wings and recreated our first date at The Monarch Club. It felt nostalgic and new at the same time, and the quieter, meaningful moments stood out more than ever.",
+        "October was a cozy, celebratory month full of milestones and high-energy nights. We marked six months together with Standby wings and a throwback dinner at The Monarch Club, cheered at the Red Wings game, enjoyed fall donuts and photo ops in Northville, and had two unforgettable Halloween parties with friends. It balanced quiet moments with big nights out.",
       favoriteDate: {
-        entryId: "43",
+        entryId: "42",
         reason:
-          "Celebrating our 6 month anniversary was huge — Standby for dinner (the wings!) and then heading to The Monarch Club to recreate our first date made the night both nostalgic and magical.",
+          "Our 6-month celebration (Standby + The Monarch Club) felt nostalgic and perfect — a thoughtful mix of the small moments and a night that truly celebrated us.",
       },
       monthHighlights: [
-        "Our 6 month anniversary - Standby wings and The Monarch Club recreation",
-        "Weekend trips and football + hockey outings around Northville",
-        "Discovering spots that became new favorites",
-        "Quiet moments that felt just as big as the celebrations",
+        "Six-month celebration: Standby wings and recreating our first date at The Monarch Club",
+        "Red Wings game — loud, cold, and a blast together",
+        "Northville fall day: Red Dot, Cider Mill donuts, and cozy photos",
+        "Halloween parties — silly costumes, friend group mixing, and great energy",
       ],
     },
   ],
