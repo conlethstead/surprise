@@ -114,15 +114,14 @@ export const timelineData: TimelineData = {
         "We spent a long time at this dinner, I think almost closing it out!",
         "Our waiter asked us what we wanted to drink and our orders, and left us alone for the rest of the night because we were in our own world and he did not want to disrupt!",
         "The food was delicious, and you looked stunning as always.",
-        "Then we got this photo! And I know it as one of your favorites."
+        "Then we got this photo! And I know it as one of your favorites.",
       ],
     },
     {
       id: "7",
       date: "2025-04-01",
       title: "Night Out at Delux Fluxx",
-      description:
-        "Fun night out with friends!",
+      description: "Fun night out with friends!",
       category: "celebration",
       location: "Delux Fluxx",
       memories: [
@@ -148,7 +147,7 @@ export const timelineData: TimelineData = {
       ],
     },
     {
-      id: "10",
+      id: "9",
       date: "2025-04-14",
       title: "Your Soccer Game",
       description:
@@ -161,7 +160,7 @@ export const timelineData: TimelineData = {
       ],
     },
     {
-      id: "11",
+      id: "10",
       date: "2025-04-15",
       title: "Becoming Official! 💕",
       description: "I asked you to be my girlfriend! 🥰",
@@ -177,7 +176,7 @@ export const timelineData: TimelineData = {
       ],
     },
     {
-      id: "12",
+      id: "11",
       date: "2025-04-23",
       title: "Tigers Game with Colton",
       description:
@@ -190,7 +189,7 @@ export const timelineData: TimelineData = {
       ],
     },
     {
-      id: "13",
+      id: "12",
       date: "2025-05-01",
       title: "Your Graduation Celebration at the Whitney",
       description:
@@ -206,7 +205,7 @@ export const timelineData: TimelineData = {
       ],
     },
     {
-      id: "14",
+      id: "13",
       date: "2025-05-02",
       title: "AKPsi End of Year Party",
       description: "Party night with Ryan John, John, and Xavier! 🎉",
@@ -220,7 +219,7 @@ export const timelineData: TimelineData = {
       ],
     },
     {
-      id: "15",
+      id: "14",
       date: "2025-05-06",
       title: "Your Birthday! 🎂",
       description:
@@ -239,7 +238,7 @@ export const timelineData: TimelineData = {
       ],
     },
     {
-      id: "16",
+      id: "15",
       date: "2025-05-08",
       title: "Evan's Fashion Show",
       description:
@@ -254,7 +253,7 @@ export const timelineData: TimelineData = {
       ],
     },
     {
-      id: "17",
+      id: "16",
       date: "2025-05-10",
       title: "Parents Weekend Day 1",
       description:
@@ -270,7 +269,7 @@ export const timelineData: TimelineData = {
       ],
     },
     {
-      id: "18",
+      id: "17",
       date: "2025-05-11",
       title: "Parents Weekend Day 2",
       description: "Tennis and brunch at Meadowbrook with your family! 🎾",
@@ -280,11 +279,11 @@ export const timelineData: TimelineData = {
         "Tennis with your family was so much fun, poor Mawwy was having a hard time.",
         "Brunch at Meadowbrook was delicious, I wish I could have eaten more before my game!",
         "I loved that your family did your high and lows of the day, it shows how close you are as a family and now I try to do it with mine!",
-        "You all went around sharing your favorite memories with each other and I felt so full of love."
+        "You all went around sharing your favorite memories with each other and I felt so full of love.",
       ],
     },
     {
-      id: "19",
+      id: "18",
       date: "2025-05-23",
       title: "Townhouse Date Night",
       description:
@@ -295,11 +294,11 @@ export const timelineData: TimelineData = {
         "Our 1 month anniversary! So exciting.",
         "The food totally flopped but the vibe was really cool!",
         "Disco night was such a blast, the saxophone player was a highlight!",
-        "Our first month was filled with so many fun dates, I could not wait for more!"
+        "Our first month was filled with so many fun dates, I could not wait for more!",
       ],
     },
     {
-      id: "20",
+      id: "19",
       date: "2025-05-26",
       title: "Birthday Celebration with Grandparents",
       description:
@@ -312,7 +311,7 @@ export const timelineData: TimelineData = {
       ],
     },
     {
-      id: "21",
+      id: "20",
       date: "2025-06-05",
       title: "My Birthday Celebration! 🎂",
       description:
@@ -333,7 +332,7 @@ export const timelineData: TimelineData = {
       ],
     },
     {
-      id: "22",
+      id: "21",
       date: "2025-06-07",
       title: "Boat Tour & Your Graduation Party",
       description: "Meeting your extended family and dancing all night! 🚤🎓",
@@ -350,7 +349,7 @@ export const timelineData: TimelineData = {
       ],
     },
     {
-      id: "23",
+      id: "22",
       date: "2025-06-17",
       title: "La Supreme Dinner Date",
       description:
@@ -364,7 +363,7 @@ export const timelineData: TimelineData = {
       ],
     },
     {
-      id: "25",
+      id: "23",
       date: "2025-07-03",
       endDate: "2025-07-14",
       title: "Back-to-Back Family 4th of July Vacation 🇺🇸",
@@ -375,10 +374,8 @@ export const timelineData: TimelineData = {
       duration: "12 days",
       highlights: [
         "After a shorter drive to west Michigan, we got to my cousin Lindsey's house, and she knew right away how lucky I am.",
-        
+
         "Took us forever to get to Maryland but was all worth it and more.",
-       
-        
       ],
       activities: [
         "Jet skiing on the lake",
@@ -422,7 +419,7 @@ export const timelineData: TimelineData = {
       ],
     },
     {
-      id: "26",
+      id: "24",
       date: "2025-07-15",
       title: "Our 3 Month Anniversary! 🎉",
       description:
@@ -436,7 +433,7 @@ export const timelineData: TimelineData = {
       ],
     },
     {
-      id: "27",
+      id: "25",
       date: "2025-07-24",
       title: "Wright and Company Dinner Date",
       description:
@@ -451,7 +448,7 @@ export const timelineData: TimelineData = {
       ],
     },
     {
-      id: "28",
+      id: "26",
       date: "2025-07-25",
       title: "Night Out at The Record Bar",
       description:
@@ -466,7 +463,7 @@ export const timelineData: TimelineData = {
       ],
     },
     {
-      id: "29",
+      id: "27",
       date: "2025-08-01",
       title: "2nd Party with AKPsiers! 🎉",
       description:
@@ -475,11 +472,11 @@ export const timelineData: TimelineData = {
       location: "AKPsi Party",
       memories: [
         "We got to repeat the first party! And we did!",
-        "Can't wait for the next one for Halloween!"
+        "Can't wait for the next one for Halloween!",
       ],
     },
     {
-      id: "30",
+      id: "28",
       date: "2025-08-02",
       title: "BBQ & Soccer Hat Trick! ⚽",
       description:
@@ -493,7 +490,7 @@ export const timelineData: TimelineData = {
       ],
     },
     {
-      id: "31",
+      id: "29",
       date: "2025-08-04",
       title: "Baseball Game with College Friends ⚾",
       description: "Baseball game and college friends! 📸",
@@ -506,7 +503,7 @@ export const timelineData: TimelineData = {
       ],
     },
     {
-      id: "32",
+      id: "30",
       date: "2025-08-09",
       title: "Spirited Away Taste Film 🍜",
       description:
@@ -521,7 +518,7 @@ export const timelineData: TimelineData = {
       ],
     },
     {
-      id: "33",
+      id: "31",
       date: "2025-08-21",
       title: "First Time Golfing! ⛳",
       description:
@@ -534,7 +531,7 @@ export const timelineData: TimelineData = {
       ],
     },
     {
-      id: "34",
+      id: "32",
       date: "2025-08-22",
       title: "Bastille Bar - Mixing Friend Groups! 🍻",
       description:
@@ -549,7 +546,7 @@ export const timelineData: TimelineData = {
       ],
     },
     {
-      id: "35",
+      id: "33",
       date: "2025-08-23",
       title: "Golfing on Belle Isle ⛳",
       description: "Our most fun golfing event yet - you even got a par! 🏌️‍♀️",
@@ -562,7 +559,7 @@ export const timelineData: TimelineData = {
       ],
     },
     {
-      id: "36",
+      id: "34",
       date: "2025-08-26",
       title: "La Lanterna Date Night 🕯️",
       description:
@@ -575,7 +572,7 @@ export const timelineData: TimelineData = {
       ],
     },
     {
-      id: "37",
+      id: "35",
       date: "2025-09-05",
       title: "Dinner at Selden Standard",
       description: "Lovely food, fitted up, and curly hair!",
@@ -584,11 +581,11 @@ export const timelineData: TimelineData = {
       memories: [
         "I finally got to wear my grey suit and you looked beautiful in that blue dress! We always look great together.",
         "Watching the food get grilled live at the kitchen counter, mouths watering",
-        "We got to share another delicious meal!"
-      ]
+        "We got to share another delicious meal!",
+      ],
     },
     {
-      id: "38",
+      id: "36",
       date: "2025-09-11",
       title: "Sneaking lunch at work!",
       description: "Steak, Eggs, and Salad! YUM",
@@ -597,10 +594,10 @@ export const timelineData: TimelineData = {
       memories: [
         "I love sneaking time with you, and this one was extra special.",
         "Thanks for meeting me and making good choices on dinner!",
-      ]
+      ],
     },
     {
-      id: "39",
+      id: "37",
       date: "2025-09-12",
       title: "Michigan game in Ann Arbor!",
       description: "Quality time with family",
@@ -610,11 +607,11 @@ export const timelineData: TimelineData = {
         "We got to eat super yummy chicken dinner with my parents and they took this cute picture of us!",
         "Tailgating, watching Wicked at halftime, and getting seranated was so fun! Thanks for being my +1 :)",
         "We were tired after that game what can I say ;)",
-        "It was so special to me that you got your family to come to my last game, I'm really glad we got a picture of this."
-      ]
+        "It was so special to me that you got your family to come to my last game, I'm really glad we got a picture of this.",
+      ],
     },
     {
-      id: "40",
+      id: "38",
       date: "2025-09-15",
       title: "Anniversary Dinner at Grey Ghost",
       description: "Fun plates and a great anniversary!",
@@ -623,22 +620,24 @@ export const timelineData: TimelineData = {
       memories: [
         "They wrote us such a cute card!",
         "We got to see James, who was at my apartment after our first date!",
-        "So cute to hear that he got engaged, it is a great omen for us."
-      ]
+        "So cute to hear that he got engaged, it is a great omen for us.",
+      ],
     },
     {
-      id: "41",
+      id: "39",
       date: "2025-09-27",
       title: "Zach Bryan Concert!",
       description: "Great music, awesome outfits and so fun!",
       category: "date",
       location: "The Big House",
       memories: [
-        ""
-      ]
+        "The Zach Bryan concert was insane there were so many people!",
+        "You looked so good in your cowboy hat and boots! I loved showing you off as usual :)",
+        "Can't wait for more events like this, like the World Cup!",
+      ],
     },
     {
-      id: "41",
+      id: "40",
       date: "2025-10-04",
       title: "Northville Football and Red Wings",
       description: "Back & Forth Weekend in AA and Northville",
@@ -647,11 +646,11 @@ export const timelineData: TimelineData = {
       memories: [
         "This weekend was jam packed and awesome!",
         "It was so cool to see V with all of her friends cheering, and how much people love the Mustangs!",
-        "Shake Shack into the hockey game on the glass was a blast! We got such a good game and I loved how much you enjoyed the game."
-      ]
+        "Shake Shack into the hockey game on the glass was a blast! We got such a good game and I loved how much you enjoyed the game.",
+      ],
     },
     {
-      id: "42",
+      id: "41",
       date: "2025-10-07",
       title: "CAVA and AKPSi Soccer Game",
       description: "New favorite spot and trash talk!",
@@ -660,12 +659,11 @@ export const timelineData: TimelineData = {
       memories: [
         "It was fun watching your face light up at all the options in CAVA, we will totally go again!",
         "Being welcomed in your friend group and hearing all the funny trash talk was hilarious.",
-        "Finishing Across the Spiderverse after! Thanks for watching my favorite movie with me."
-      ]
-    }
-    ,
+        "Finishing Across the Spiderverse after! Thanks for watching my favorite movie with me.",
+      ],
+    },
     {
-      id: "43",
+      id: "42",
       date: "2025-10-10",
       title: "6 Month Anniversary! 🎉",
       description:
@@ -673,12 +671,86 @@ export const timelineData: TimelineData = {
       category: "milestone",
       location: "Standby & The Monarch Club",
       memories: [
+        "Our 6 month anniversary started with presents, like we always do and I added a little story of pictures to show my reaction ;)",
+        "Thank you so much for all of your gifts and thoughtfulness, I can't wait for World Cup 2026!",
         "Such a huge milestone for us — 6 months together!",
-        "We went to Standby for dinner and the wings were so good.",
-        "After dinner we headed to The Monarch Club to try to recreate our first date — such a sweet, nostalgic night.",
-        "I loved every minute of celebrating with you and making new memories that echo the first ones. ❤️"
-      ]
-    }
+        "We got the wings at Standby and their drink menu was awesome I'm glad they let us take that home.",
+        "After dinner, we headed to The Monarch Club to try to recreate our first date — such a sweet, nostalgic night.",
+        "I loved every minute of celebrating with you and making new memories that echo the first ones. ❤️",
+      ],
+    },
+    {
+      id: "43",
+      date: "2025-10-11",
+      title: "DCFC Game & Family Lunch",
+      description:
+        "Our families came together for the DCFC game and lunch at Eatori.",
+      category: "date",
+      location: "Eatori & DCFC Stadium",
+      memories: [
+        "We got to bring our families together for lunch at Eatori and the DCFC game — such a special day!",
+        "I love mixing our families and seeing how well they all get along.",
+        "We got some cute pictures together and then the fan section smoked us out!",
+        "One of those days that felt big and full of love. ❤️",
+      ],
+    },
+    {
+      id: "44",
+      date: "2025-10-15",
+      title: "6 Month Anniversary — Red Wings",
+      description: "Red Wings game to celebrate our 6 months together! 🏒",
+      category: "date",
+      location: "Red Wings Game",
+      memories: [
+        "Well, this night did not go exactly as planned but it did end up super fun!",
+        "It was a little cold for some and a little frustrating for others, but we still enjoyed the game and got to bath after.",
+        "Happy 6 months baby, I am so excited for the next 6 and beyond! ❤️",
+      ],
+    },
+    {
+      id: "45",
+      date: "2025-10-24",
+      title: "Halloween Part 1 — Ryan John's House",
+      description:
+        "First Halloween party: Ryan John's house, hilarious costume night! 🎃🐱",
+      category: "date",
+      location: "Ryan John's House",
+      memories: [
+        "Wearing the 'Good Boy' tag was such a fun bit for the night.",
+        "You looked so cute in your kitty cat outfit.",
+        "We always love hosting pregames and postgames with your friends!",
+        "It was a great warmup for the real Halloween!",
+      ],
+    },
+    {
+      id: "46",
+      date: "2025-11-25",
+      title: "Northville Fall Day",
+      description: "Red Dot + Cider Mill donuts and a cozy fall photo day! 🍂",
+      category: "date",
+      location: "Northville",
+      memories: [
+        "Thanks for showing me Red Dot and the Cider Mill — those donuts were so yummy.",
+        "I love helping curate your posts, your fall/Halloween ones were so good.",
+        "I love that Supergirl shirt on you.",
+        "Saying hi to V was so fun — she always lights up when she sees us :)",
+      ],
+    },
+    {
+      id: "47",
+      date: "2025-10-31",
+      title: "Halloween Part 2 — House Party",
+      description:
+        "Big house party with lots of friends — epic costume energy! 🕸️",
+      category: "date",
+      location: "House Party",
+      memories: [
+        "Mixing friend groups can be scary but you did such a great job getting everyone together.",
+        "It was so fun to get into costume with you and finally do our SUPER costumes :)",
+        "The walk to the party was long but the energy was so good that night.",
+        "So excited for next year's Halloween!",
+      ],
+    },
   ],
   monthlyRecaps: [
     {
@@ -785,7 +857,7 @@ export const timelineData: TimelineData = {
     {
       monthYear: "2025-7",
       summary:
-        "August was all about fun adventures and showing you off! From AKPsi parties where we got 'bad that night' to teaching you golf (twice!) and watching you get a par on Belle Isle. The Spirited Away Taste Film event absolutely blew me away - you and your sisters killed it with every course! Meeting my college friends at the baseball game and seeing how perfectly you fit in, plus that romantic La Lanterna date with conversation cards. August showed me how creative, thoughtful, and amazing you are! ✨⛳",
+        "August was all about fun adventures and showing you off! From AKPsi parties to teaching you golf (twice!) and watching you get a par on Belle Isle. The Spirited Away Taste Film event absolutely blew me away - you and your sisters killed it with every course! Meeting my college friends at the baseball game and seeing how perfectly you fit in, plus that romantic La Lanterna date with conversation cards. August showed me how creative, thoughtful, and amazing you are! ✨⛳",
       favoriteDate: {
         entryId: "32",
         reason:
@@ -823,6 +895,39 @@ export const timelineData: TimelineData = {
         "Seeing James who was at my apartment after our first date!",
         "Hearing about his engagement - great omen for us!",
         "Zach Bryan concert with great music and awesome outfits",
+      ],
+    },
+    {
+      monthYear: "2025-9",
+      summary:
+        "October was cozy and full of small, meaningful moments alongside fun nights out. We had a back-and-forth weekend with Northville football and the Red Wings, discovered a new favorite spot at CAVA (and watched the AKPSi soccer game), and celebrated our 6 month anniversary — a perfect mix of nostalgia and celebration.",
+      favoriteDate: {
+        entryId: "39",
+        reason:
+          "The Michigan game remains one of the most meaningful days — having both our families there made it feel huge and special. Tailgating, the moments with my parents, and that family photo made it unforgettable.",
+      },
+      monthHighlights: [
+        "Northville Football and Red Wings weekend — jam packed and awesome",
+        "Finding a new favorite spot at CAVA and enjoying the AKPSi soccer game",
+        "Sneaking lunches and little weekday moments that felt extra special",
+        "Anniversary vibes continuing after a great summer",
+        "Zach Bryan concert to close out the month with great music",
+      ],
+    },
+    {
+      monthYear: "2025-10",
+      summary:
+        "November (October in our timeline) was a lovely milestone month — we celebrated six months together with Standby wings and recreated our first date at The Monarch Club. It felt nostalgic and new at the same time, and the quieter, meaningful moments stood out more than ever.",
+      favoriteDate: {
+        entryId: "43",
+        reason:
+          "Celebrating our 6 month anniversary was huge — Standby for dinner (the wings!) and then heading to The Monarch Club to recreate our first date made the night both nostalgic and magical.",
+      },
+      monthHighlights: [
+        "Our 6 month anniversary - Standby wings and The Monarch Club recreation",
+        "Weekend trips and football + hockey outings around Northville",
+        "Discovering spots that became new favorites",
+        "Quiet moments that felt just as big as the celebrations",
       ],
     },
   ],

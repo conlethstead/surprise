@@ -74,3 +74,30 @@ App -> Timeline -> [TimelineEntry, MonthlyRecapCard, AnniversaryCountdown]
 - `/public/pictures/`: Date-organized photo folders
 
 When adding features, follow the established pattern of rich data models with flexible rendering based on what's present in each entry.
+
+Careful edits note:
+
+- When editing `src/data/data.ts`, be extra careful with commas and brackets around entries. Each entry is an object in the `entries` array and must be comma-separated. Missing or extra commas/braces can cause syntax errors. When inserting or removing entries, ensure the surrounding entries keep the correct trailing commas and that the `entries` array's opening `[` and closing `]` remain balanced.
+
+
+## Creating a new date entry (automated helper guidance)
+
+When I ask you to "create a new date" follow these exact steps so future edits are consistent and predictable:
+
+- Open `src/data/data.ts` and locate the most recent `id` used for timeline entries. IDs are numeric and increment by 1; the most recent will be the highest number (it will typically be at least 40 in this project).
+- Create a new TimelineEntry object immediately after the most recent entry. Increment the `id` by 1.
+- Use the date I provide in the prompt for the new entry. If I don't provide a date, ask me for one.
+- Keep the `description` (or short text field) concise — a one-line, short summary.
+- Default `category` to `date` unless I explicitly say `milestone` or `vacation` in the prompt.
+- For `memories` or other long text fields, do not expand on what I wrote; keep them minimal and close to my wording.
+- Add any photos only if I explicitly provide file names or say to add photos. Do not auto-populate photos.
+
+Example instruction you should follow when asked:
+
+"Create a new date for 2025-12-01 with description 'Ski trip day' and memories 'First run of the season'"
+
+Resulting behavior:
+
+- Find the highest `id` in `src/data/data.ts` (e.g., 42), create a new entry with `id: 43`, `date: '2025-12-01'`, `description: 'Ski trip day'`, `category: 'date'`, and `memories: ['First run of the season']`.
+
+Follow the project's existing formatting and typing conventions when inserting the new entry.
