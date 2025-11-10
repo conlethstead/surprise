@@ -1,0 +1,71 @@
+.ff-modal-backdrop {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+}
+
+.ff-modal {
+  background: white;
+  border-radius: 12px;
+  max-width: 88vw;
+  max-height: 88vh;
+  padding: 12px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ff-close {
+  position: absolute;
+  right: 12px;
+  top: 8px;
+  border: none;
+  background: transparent;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.ff-gallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 70vh;
+}
+
+.ff-photo {
+  max-width: calc(100% - 120px);
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 8px;
+  background: #fafafa;
+}
+
+.ff-nav {
+  background: rgba(255,255,255,0.9);
+  border: none;
+  font-size: 22px;
+  padding: 10px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 0 8px;
+}
+
+.ff-caption {
+  margin-top: 8px;
+  font-size: 13px;
+  color: #444;
+}
+
+.ff-empty {
+  padding: 28px;
+  color: #666;
+}

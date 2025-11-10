@@ -1,0 +1,89 @@
+.fun-folder-container {
+  position: fixed;
+  /* move closer to main content: slightly down and a bit inset from right; nudged farther right */
+  top: 140px;
+  right: calc(50% - 260px); /* nudged a bit farther away from the title */
+  z-index: 9999;
+}
+
+.fun-folder {
+  display: block;
+  transform: rotate(-10deg);
+  transform-origin: center;
+  text-decoration: none;
+  transition: transform 200ms ease, box-shadow 200ms ease;
+}
+
+.fun-folder:focus,
+.fun-folder:hover {
+  transform: rotate(-6deg) translateY(-2px);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.18);
+  outline: none;
+}
+
+.folder-body {
+  width: 150px;
+  height: 110px;
+  background: linear-gradient(180deg, #ffd9a8 0%, #ffbf6b 100%);
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+  position: relative;
+  overflow: visible;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.folder-tab {
+  position: absolute;
+  left: 18px;
+  top: -18px;
+  width: 86px;
+  height: 36px;
+  background: linear-gradient(180deg, #ffeecf 0%, #ffd58a 100%);
+  border-radius: 6px 6px 4px 4px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.folder-face {
+  padding-top: 6px;
+}
+
+.folder-label {
+  display: none; /* hide textual label when using lock icon */
+}
+
+.folder-lock {
+  font-size: 34px;
+  transform: translateY(2px) rotate(-6deg);
+}
+
+/* Larger variant */
+.fun-folder.big .folder-body { transform: scale(1.15); }
+
+/* Password prompt styles */
+.hidden-prompt {
+  margin-top: 12px;
+  background: rgba(255,255,255,0.95);
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+.hidden-prompt-label { font-size: 13px; margin-bottom: 6px; color: #333; }
+.hidden-prompt-input { padding: 8px 10px; border-radius: 6px; border: 1px solid #ddd; margin-bottom: 8px; }
+.hidden-prompt-actions { display:flex; gap:8px; justify-content:flex-end; }
+.hidden-prompt-ok, .hidden-prompt-cancel { padding:6px 10px; border-radius:6px; border:none; cursor:pointer; }
+.hidden-prompt-ok { background:#ffbf6b; color:#3b2200; font-weight:600 }
+.hidden-prompt-cancel { background:#eee }
+.hidden-prompt-help { margin-top:6px; font-size:12px; color:#777 }
+
+/* Make sure it shrinks a bit on small screens so it doesn't block content */
+@media (max-width: 900px) {
+  .fun-folder-container { right: 18px; top: 80px; }
+  .folder-body { width: 120px; height: 90px; }
+  .folder-tab { width: 64px; height: 28px; left: 12px; top: -12px; }
+}
