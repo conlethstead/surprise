@@ -751,6 +751,40 @@ export const timelineData: TimelineData = {
         "So excited for next year's Halloween!",
       ],
     },
+    {
+      id: "48",
+      date: "2025-10-19",
+      title: "Tough Few Days",
+      description: "A rough couple of days — but we're okay.",
+      category: "date",
+      location: "the ghetto",
+      memories: [
+        "It was an unfortunate couple of days but it's okay!! We can only go up from here <3",
+        "I love hanging out with you no matter what we're doing!"
+      ],
+    },
+    {
+      id: "49",
+      date: "2025-11-01",
+      title: "Post Halloween Breakfast!",
+      category: "date",
+      location: "motown apartment",
+      memories: [
+        "I loved making this breakfast with you after such a fun night.",
+        "Thanks for grabbing this picture!"
+      ]
+    },
+    {
+      id: "50",
+      date: "2025-11-02",
+      title: "Lions game with friends!",
+      location: "Harry's",
+      category: "date",
+      memories: [
+        "Thanks for coming all the way here to watch the Lions game with me!",
+        "I absolutely loved your outfit and I got to wear the leather jacket you got for me for the first time!",
+      ]
+    }
   ],
   monthlyRecaps: [
     {

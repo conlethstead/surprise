@@ -17,18 +17,18 @@ function generatePhotoManifest() {
     return;
   }
   
-  // Get all date directories
-  const dateDirs = fs.readdirSync(picturesDir)
-    .filter(dir => {
-      const fullPath = path.join(picturesDir, dir);
-      return fs.statSync(fullPath).isDirectory() && dir.match(/^\d{4}-\d{2}-\d{2}$/);
-    });
+    // Get all subdirectories inside picturesDir (include non-date folders like 'funny')
+    const dateDirs = fs.readdirSync(picturesDir)
+      .filter(dir => {
+        const fullPath = path.join(picturesDir, dir);
+        return fs.statSync(fullPath).isDirectory() && !dir.startsWith('.');
+      });
   
   // For each date directory, get all image files
   dateDirs.forEach(dateDir => {
     const datePath = path.join(picturesDir, dateDir);
     const files = fs.readdirSync(datePath)
-      .filter(file => file.match(/\.(jpg|jpeg|JPG)$/i))
+      .filter(file => file.match(/\.(jpg|jpeg|png|gif|webp|mp4|mov)$/i))
       .sort();
     
     if (files.length > 0) {
